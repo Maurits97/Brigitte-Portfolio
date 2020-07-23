@@ -1,0 +1,137 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#header {
+  margin-top: 80px;
+}
+
+#header #header__name {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+#header #header__title {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#nav {
+  position: absolute;
+  margin-top: 30px;
+}
+
+#nav .active {
+  font-weight: 700;
+}
+
+#nav .nav__item {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+#nav .nav__item .link {
+  text-decoration: none;
+  color: black;
+}
+
+#nav .nav__item .link:hover {
+  font-weight: 500;
+}
+
+#nav .nav__item--focus {
+  font-weight: 900;
+}
+
+#content {
+  margin-left: 20%;
+  margin-top: 45px;
+}
+
+#content .text {
+  font-size: 15px;
+  margin-top: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+#content #showcase {
+  position: relative;
+  display: block;
+  background-color: grey;
+  height: calc(100vh - 200px);
+}
+
+#content .header {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#content #galerij .galerij__onderwerp {
+  list-style-type: none;
+  margin-top: 15px;
+}
+
+#content #galerij .galerij__onderwerp:first-child {
+  margin-top: 20px;
+}
+
+#content #galerij .galerij__onderwerp .galerij__link {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+#content #galerij .galerij__onderwerp .galerij__link:hover {
+  font-weight: 900;
+}
+
+#content .onderwerp .header {
+  font-weight: 400;
+  font-style: italic;
+}
+
+#content .onderwerp .onderwerp__terug {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+#content .onderwerp .onderwerp__terug:hover {
+  font-weight: 900;
+}
+
+#content .onderwerp .onderwerp__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#content .onderwerp .onderwerp__flex .onderwerp__artwork {
+  width: 250px;
+  height: 250px;
+  background-color: grey;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */

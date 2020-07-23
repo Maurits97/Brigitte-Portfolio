@@ -1,0 +1,147 @@
+@import "_variables.scss";
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#header {
+    margin-top: 80px;
+    
+    #header__name {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 3px;
+    }
+    
+    #header__title {
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+#nav {
+    position: absolute;
+    margin-top: 30px;
+
+    .active {
+        font-weight: 700;
+    }
+
+    .nav__item {
+        list-style-type: none;
+        margin-top: 15px;
+        
+        .link {
+            text-decoration: none;
+            color: black;
+            
+            &:hover {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .nav__item--focus {
+        font-weight: 900;
+    }
+}
+
+#content {
+    margin-left: 20%;
+    margin-top: 45px;
+
+    .text {
+        font-size: 15px;
+        margin-top: 20px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+
+    #showcase {
+        position: relative;
+        display: block;
+        background-color: grey;
+        height: calc(100vh - 200px);
+    }
+
+    .header {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    #galerij {
+        .galerij__onderwerp {
+            list-style-type: none;
+            margin-top: 15px;
+
+            &:first-child {
+                margin-top: 20px;
+            }
+            
+            .galerij__link {
+                text-decoration: none;
+                color: black;
+                font-style: italic;
+                
+                &:hover {
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+
+    .onderwerp {
+        .header {
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .onderwerp__terug {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-style: italic;
+            margin-top: 5px;
+                
+            &:hover {
+                font-weight: 900;
+            }
+        }
+
+        .onderwerp__flex {
+            display: flex;
+            flex: row;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+
+            .onderwerp__artwork {
+                width: 250px;
+                height: 250px;
+                background-color: grey;
+                margin: 5px;
+            }
+
+        }
+
+    }
+}
+
+
+//slide fade transition animation
+// .slide-fade-enter, .slide-fade-leave-to {
+//     transform: translateX(1px);
+//     opacity: 0;
+// }
+// .slide-fade-enter-active, .slide-fade-enter-active {
+//     transition: 0.5s ease;
+// }

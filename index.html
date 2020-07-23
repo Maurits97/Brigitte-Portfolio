@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='../css/style.css' rel='stylesheet'></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>Brigitte Stark portfolio</title>
+</head>
+<body>
+    <div id="app">
+        <div id="header">
+            <p id='header__name'>Brigitte Stark</p>
+            <p id='header__title'>Kunstenaar</p>
+        </div>
+
+        <div id="nav">
+            <ul> 
+              <li class="nav__item active">
+                  <router-link class="link" to= '/'>Home</router-link>
+              </li>
+              <li class="nav__item">
+                    <router-link class="link" to= '/galerij'>Galerij</router-link>
+                </li>
+                <li class="nav__item">
+                    <router-link class="link" to= '/overmij'>Over mij</router-link>
+                </li>
+                <li class="nav__item">
+                    <router-link class="link" to= '/contact'>Contact</router-link>
+                </li>
+            </ul>
+          </div> 
+
+        <div id="content">
+            <transition mode="out-in" name="slide-fade">
+                <router-view></router-view>
+            </transition>
+        </div>
+    </div>
+    
+    <!-- jQuery cdn-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Vue cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- Vue Router cdn-->
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <!-- Custom scripts-->
+    <script src='js/information.js'></script>
+    <script src='js/artwork.js'></script>
+    <script src="js/templates.js"></script>
+    <!-- main-->
+    <script src="js/main.js"></script>
+</body>
+</html>
