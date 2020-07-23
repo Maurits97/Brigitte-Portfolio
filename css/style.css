@@ -117,9 +117,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: row;
-      -ms-flex: row;
-          flex: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -129,8 +130,8 @@ body {
 }
 
 #content .onderwerp .onderwerp__flex .onderwerp__artwork {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   background-color: grey;
   margin: 5px;
 }

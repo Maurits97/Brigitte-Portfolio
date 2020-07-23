@@ -119,14 +119,14 @@ body {
 
         .onderwerp__flex {
             display: flex;
-            flex: row;
+            flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
             margin-top: 50px;
 
             .onderwerp__artwork {
-                width: 250px;
-                height: 250px;
+                width: 220px;
+                height: 220px;
                 background-color: grey;
                 margin: 5px;
             }
