@@ -16,10 +16,10 @@ const home = {
 const galerij = {
     template: `
         <div id="galerij">
-            <h1 class="header">Galerij</h1>
+            <h1 class="header">Werk</h1>
             <ul>
                 <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp1'>Onderwerp 1</router-link>
+                    <router-link class="galerij__link" to= '/galerij/subonderwerp1'>Ambachten</router-link>
                 </li>
                 <li class="galerij__onderwerp">
                     <router-link class="galerij__link" to= '/galerij/subonderwerp2'>Onderwerp 2</router-link>
@@ -102,7 +102,7 @@ const subonderwerp4 = {
 
 `
 }
-const  subonderwerp5 = {
+const subonderwerp5 = {
     template: `
     <div class="onderwerp">
         <h1 class="header">5</h1>

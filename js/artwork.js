@@ -6,7 +6,7 @@ const showcase = {
 
 //Artwork subjects
 const artworkOnderwerp1 = {
-    header: 'Onderwerp 1',
+    header: 'Ambachten',
     links: {
         one: '',
         two: '',
