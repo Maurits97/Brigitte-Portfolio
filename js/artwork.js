@@ -8,7 +8,7 @@ const showcase = {
 const artworkOnderwerp1 = {
     header: 'Ambachten',
     links: {
-        one: '',
+        one: '/',
         two: '',
         three: '',
         four: '',
