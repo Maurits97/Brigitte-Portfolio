@@ -54,9 +54,10 @@ $(".nav__item").click(function(){
     $(this).addClass('active');
   });
 
-//Get year and set copyright
+//Get year and 
 var d = new Date();
 var year = d.getFullYear();
 
+//set copyright in #footer
 const footer = document.getElementById('footer');
-footer.innerHTML = '&copy; Copyright ' + year + ', Brigitte Stark';
+footer.innerHTML = '<p>&copy; Copyright ' + year + ', Brigitte Stark</p>';
