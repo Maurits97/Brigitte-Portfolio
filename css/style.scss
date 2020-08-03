@@ -9,6 +9,10 @@
 body {
     width: 70%;
     margin: 0 auto;
+
+    @media (min-width: 2000px){
+        width: 60%;
+    }
 }
 
 #header {

@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
 }
 
+@media (min-width: 2000px) {
+  body {
+    width: 60%;
+  }
+}
+
 #header {
   margin-top: 80px;
 }
