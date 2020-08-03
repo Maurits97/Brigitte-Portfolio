@@ -60,4 +60,3 @@ var year = d.getFullYear();
 
 const footer = document.getElementById('footer');
 footer.innerHTML = '&copy; Copyright ' + year + ', Brigitte Stark';
-
