@@ -11,13 +11,13 @@ const home = {
             <img id="showcase__img" v-bind:src= "showcase.href" alt="showcase artwork" />
             <div class="showcase__info">
                 <h2> {{showcase.info.headerOne}} </h2>
-                <p class="text"> {{showcase.info.textOne}} </p>
+                <p class="text text--showcase"> {{showcase.info.textOne}} </p>
                 <br />
                 <h2> {{showcase.info.headerTwo}} </h2>
-                <p class="text"> {{showcase.info.textTwo}} </p>
+                <p class="text text--showcase"> {{showcase.info.textTwo}} </p>
                 <br />
                 <h2> {{showcase.info.headerThree}} </h2>
-                <p class="text"> {{showcase.info.textThree}} </p>
+                <p class="text text--showcase"> {{showcase.info.textThree}} </p>
                 <br />
             </div>
         </div>
