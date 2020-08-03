@@ -53,3 +53,11 @@ $(".nav__item").click(function(){
     $(".nav__item").removeClass('active');//to make sure there will be only one with the class 'active'
     $(this).addClass('active');
   });
+
+//Get year and set copyright
+var d = new Date();
+var year = d.getFullYear();
+
+const footer = document.getElementById('footer');
+footer.innerHTML = '&copy; Copyright ' + year + ', Brigitte Stark';
+
