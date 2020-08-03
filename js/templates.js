@@ -8,30 +8,41 @@ const home = {
     props: ['showcase'],
     template: `
         <div id="showcase">
-            <p> {{showcase.href}}</p>
-            <img id="showcase__img" href=""/>
+            <img id="showcase__img" v-bind:src= "showcase.href" alt="showcase artwork" />
+            <div class="showcase__info">
+                <h2> {{showcase.info.headerOne}} </h2>
+                <p class="text"> {{showcase.info.textOne}} </p>
+                <br />
+                <h2> {{showcase.info.headerTwo}} </h2>
+                <p class="text"> {{showcase.info.textTwo}} </p>
+                <br />
+                <h2> {{showcase.info.headerThree}} </h2>
+                <p class="text"> {{showcase.info.textThree}} </p>
+                <br />
+            </div>
         </div>
     `
 }
-const galerij = {
+const werk = {
+    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive'],
     template: `
-        <div id="galerij">
+        <div id="werk">
             <h1 class="header">Werk</h1>
             <ul>
-                <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp1'>Ambachten</router-link>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/cirkels'>{{artworkOne.header}}</router-link>
                 </li>
-                <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp2'>Onderwerp 2</router-link>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/subonderwerp2'>{{artworkTwo.header}}</router-link>
                 </li>
-                <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp3'>Onderwerp 3</router-link>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/subonderwerp3'>{{artworkThree.header}}</router-link>
                 </li>
-                <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp4'>Onderwerp 4</router-link>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/subonderwerp4'>{{artworkFour.header}}</router-link>
                 </li>
-                <li class="galerij__onderwerp">
-                    <router-link class="galerij__link" to= '/galerij/subonderwerp5'>Onderwerp 5</router-link>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/subonderwerp5'>{{artworkFive.header}}</router-link>
                 </li>
             </ul>
         </div>
@@ -43,6 +54,11 @@ const overmij = {
         <div class="overmij">
             <h1 class="header">{{overmijText.header}}</h1>
             <p class="text">{{overmijText.text}}</p>
+
+            <div class="overmij__exposities">
+                <p class="header__expositie"><i>Exposities</i></p>
+                <p class="overmij__expositie" v-for="expositie in overmijText.exposities">{{expositie}} </p>
+            </div>
         </div>
     `
 
@@ -52,62 +68,95 @@ const contact = {
     template: `
         <div class="contact">
             <h1 class="header">{{contactText.header}}</h1>
-            <p class="text">{{contactText.text}}</p>
+            <p class="text contact__name">{{contactText.naam}}</p>
+            <h2 class="contact__header">Atelier:</h2>
+            <p>Dompvloedslaan 5-B</p>
+            <p>2051 NA Overveen</p>
+            <p>www.brigittestark.nl</p>
+            <p>06-10871840</p>
+            <br />
+            <h2 class="contact__header">Email:</h2>
+            <p>Brouwerstark@gmail.com</p>
         </div>
     `
 }
 
 //Level 2
-const subonderwerp1 = {
-    props: ['artworkOnderwerp1'],
+const cirkels = {
+    props: ['artworkOne'],
     template: `
         <div class="onderwerp">
-            <h1 class="header">{{artworkOnderwerp1.header}}</h1>
-            <router-link class="onderwerp__terug" to='/galerij'>Terug</router-link>
+            <h1 class="header">{{artworkOne.header}}</h1>
+            <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
 
-            <p class="text"> {{ artworkOnderwerp1.text }}</p>
+            <p class="text"> {{ artworkOne.text }}</p>
 
             <div class="onderwerp__flex">
-                <div class="onderwerp__artwork" v-for="href in artworkOnderwerp1.links">{{href}}</div>
+                <div class="onderwerp__artwork" v-for="href in artworkOne.links">{{href}}</div>
             </div>
-            
         </div>
     `
 }
 
-const subonderwerp2 = {
+const rozet = {
+    props: ['artworkTwo'],
     template: `
     <div class="onderwerp">
-        <h1 class="header">2</h1>
-        <router-link class="onderwerp__terug" to='/galerij'>Terug</router-link>
-    </div>
+        <h1 class="header">{{artworkTwo.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
 
+        <p class="text"> {{ artworkTwo.textOne }}</p>
+        <p class="text"> {{ artworkTwo.textTwo }}</p>
+        <p class="text"> {{ artworkTwo.textThree }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkTwo.links">{{href}}</div>
+        </div>
+    </div>
 `
 }
-const subonderwerp3 = {
+const bloemen = {
+    props: ['artworkThree'],
     template: `
     <div class="onderwerp">
-        <h1 class="header">3</h1>
-        <router-link class="onderwerp__terug" to='/galerij'>Terug</router-link>
-    </div>
+        <h1 class="header">{{artworkThree.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
 
+        <p class="text"> {{ artworkThree.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkThree.links">{{href}}</div>
+        </div>
+    </div>
 `
 }
-const subonderwerp4 = {
+const hand = {
+    props: ['artworkFour'],
     template: `
     <div class="onderwerp">
-        <h1 class="header">4</h1>
-        <router-link class="onderwerp__terug" to='/galerij'>Terug</router-link>
-    </div>
+        <h1 class="header">{{artworkFour.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
 
+        <p class="text"> {{ artworkFour.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkFour.links">{{href}}</div>
+        </div>
+    </div>
 `
 }
-const subonderwerp5 = {
+const lijnen = {
+    props: ['artworkFive'],
     template: `
     <div class="onderwerp">
-        <h1 class="header">5</h1>
-        <router-link class="onderwerp__terug" to='/galerij'>Terug</router-link>
-    </div>
+        <h1 class="header">{{artworkFive.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
 
+        <p class="text"> {{ artworkFive.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkFive.links">{{href}}</div>
+        </div>
+    </div>
 `
 }

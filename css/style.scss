@@ -69,8 +69,17 @@ body {
     #showcase {
         position: relative;
         display: block;
-        background-color: grey;
-        height: calc(100vh - 200px);
+
+        #showcase__img {
+            width: 100%;
+        }
+
+        .showcase__info {
+            h2 {
+                margin-top: 10px;
+                font-weight: 500;
+            }
+        }
     }
 
     .header {
@@ -78,8 +87,8 @@ body {
         font-weight: 500;
     }
 
-    #galerij {
-        .galerij__onderwerp {
+    #werk {
+        .werk__onderwerp {
             list-style-type: none;
             margin-top: 15px;
 
@@ -87,7 +96,7 @@ body {
                 margin-top: 20px;
             }
             
-            .galerij__link {
+            .werk__link {
                 text-decoration: none;
                 color: black;
                 font-style: italic;
@@ -130,6 +139,29 @@ body {
                 background-color: grey;
                 margin: 5px;
             }
+        }
+    }
+
+    .overmij {
+        .overmij__exposities {
+            .header__expositie {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            .overmij__expositie {
+                margin-top: 5px;
+            }
+        } 
+    }
+
+    .contact {
+        .contact__name {
+            font-size: 20px;
+        }
+        .contact__header {
+            font-size: 17px;
+            font-weight: 500;
+            margin-top: 10px;
         }
     }
 }

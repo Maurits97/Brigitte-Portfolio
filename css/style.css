@@ -68,8 +68,15 @@ body {
 #content #showcase {
   position: relative;
   display: block;
-  background-color: grey;
-  height: calc(100vh - 200px);
+}
+
+#content #showcase #showcase__img {
+  width: 100%;
+}
+
+#content #showcase .showcase__info h2 {
+  margin-top: 10px;
+  font-weight: 500;
 }
 
 #content .header {
@@ -77,22 +84,22 @@ body {
   font-weight: 500;
 }
 
-#content #galerij .galerij__onderwerp {
+#content #werk .werk__onderwerp {
   list-style-type: none;
   margin-top: 15px;
 }
 
-#content #galerij .galerij__onderwerp:first-child {
+#content #werk .werk__onderwerp:first-child {
   margin-top: 20px;
 }
 
-#content #galerij .galerij__onderwerp .galerij__link {
+#content #werk .werk__onderwerp .werk__link {
   text-decoration: none;
   color: black;
   font-style: italic;
 }
 
-#content #galerij .galerij__onderwerp .galerij__link:hover {
+#content #werk .werk__onderwerp .werk__link:hover {
   font-weight: 900;
 }
 
@@ -134,5 +141,24 @@ body {
   height: 220px;
   background-color: grey;
   margin: 5px;
+}
+
+#content .overmij .overmij__exposities .header__expositie {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#content .overmij .overmij__exposities .overmij__expositie {
+  margin-top: 5px;
+}
+
+#content .contact .contact__name {
+  font-size: 20px;
+}
+
+#content .contact .contact__header {
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

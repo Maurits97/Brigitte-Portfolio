@@ -3,12 +3,15 @@
 const overmijText = {
     header: 'Over mij',
     text:
-    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. '
+    'Ik ben autodidact. Ik heb cursussen gevolgd bij de Volksuniversiteit Haarlem en Vrije Kennemer Academie Kennemerland in Overveen. Sinds 2016 neem ik deel aan studio 37 in Haarlem, een onderzoeksgroep voor kunstenaars voor ontwikkeling en reflecties op het gebied van beeldende kunst onder leiding van Pietsjanke Fokkema.',
+    exposities: {
+        one: '2018:  Groepsexpositie leden Studio 37, Haarlem.',
+        two: '2019:  Kunstlijn Haarlem, groepsexpositie leden Studio 37.'     
+    }
 }
     
 
 const contactText = {
     header: 'Contact',
-    text:
-    'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. '
+    naam:'Brigitte Stark'
 }

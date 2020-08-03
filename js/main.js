@@ -6,8 +6,8 @@ const router = new VueRouter({
             component: home, props: {showcase}
         },
         {
-            path: '/galerij',
-            component: galerij
+            path: '/werk',
+            component: werk, props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive}
         },
         {
             path: '/overmij',
@@ -18,24 +18,24 @@ const router = new VueRouter({
             component: contact, props: {contactText}
         },
         {
-            path: '/galerij/subonderwerp1',
-            component: subonderwerp1, props: {artworkOnderwerp1}
+            path: '/werk/cirkels',
+            component: cirkels, props: {artworkOne}
         },
         {
-            path: '/galerij/subonderwerp2',
-            component: subonderwerp2
+            path: '/werk/subonderwerp2',
+            component: rozet, props: {artworkTwo}
         },
         {
-            path: '/galerij/subonderwerp3',
-            component: subonderwerp3
+            path: '/werk/subonderwerp3',
+            component: bloemen, props: {artworkThree}
         },
         {
-            path: '/galerij/subonderwerp4',
-            component: subonderwerp4
+            path: '/werk/subonderwerp4',
+            component: hand, props: {artworkFour}
         },
         {
-            path: '/galerij/subonderwerp5',
-            component: subonderwerp5
+            path: '/werk/subonderwerp5',
+            component: lijnen, props: {artworkFive}
         },
     ]
 })
