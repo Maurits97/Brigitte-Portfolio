@@ -165,6 +165,7 @@ const lijnen = {
 `
 }
 
+//needs attention
 const cirkels1 = {
     template: `
         <h1>test lol</h1>

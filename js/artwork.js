@@ -18,6 +18,7 @@ const artworkOne = {
     links: {
         one: {
             work: 'img/Brigitte_Stark_showcase.jpg',
+            //needs attention
             pagelink: '/werk/cirkels/1',
             andereinfo: ''
         },

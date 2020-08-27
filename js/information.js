@@ -1,4 +1,4 @@
-//information on webapp
+//basic information of creator
 
 const overmijText = {
     header: 'Over mij',
