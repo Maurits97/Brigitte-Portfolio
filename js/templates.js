@@ -113,7 +113,7 @@ const rozet = {
         <p class="text"> {{ artworkTwo.textThree }}</p>
 
         <div class="onderwerp__flex">
-            <div class="onderwerp__artwork" v-for="href in artworkTwo.links" v-bind:style="{ backgroundImage: 'url(' + href + ')' }">
+            <div class="onderwerp__artwork" v-for="href in artworkTwo.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
@@ -130,7 +130,7 @@ const bloemen = {
         <p class="text"> {{ artworkThree.text }}</p>
 
         <div class="onderwerp__flex">
-            <div class="onderwerp__artwork" v-for="href in artworkThree.links" v-bind:style="{ backgroundImage: 'url(' + href + ')' }">
+            <div class="onderwerp__artwork" v-for="href in artworkThree.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
@@ -147,7 +147,7 @@ const hand = {
         <p class="text"> {{ artworkFour.text }}</p>
 
         <div class="onderwerp__flex">
-            <div class="onderwerp__artwork" v-for="href in artworkFour.links" v-bind:style="{ backgroundImage: 'url(' + href + ')' }">
+            <div class="onderwerp__artwork" v-for="href in artworkFour.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
@@ -164,7 +164,7 @@ const lijnen = {
         <p class="text"> {{ artworkFive.text }}</p>
 
         <div class="onderwerp__flex">
-            <div class="onderwerp__artwork" v-for="href in artworkFive.links" v-bind:style="{ backgroundImage: 'url(' + href + ')' }">
+            <div class="onderwerp__artwork" v-for="href in artworkFive.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
