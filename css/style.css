@@ -226,6 +226,12 @@ body {
   background-position-x: center;
 }
 
+#content .onderwerp .onderwerp__flex .onderwerp__artwork .onderwerp__artwork__pagelink {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 2000px) {
   #content .onderwerp .onderwerp__flex .onderwerp__artwork {
     width: 290px;

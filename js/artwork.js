@@ -16,7 +16,11 @@ const showcase = {
 const artworkOne = {
     header: 'Cirkels',
     links: {
-        one: 'img/Brigitte_Stark_showcase.jpg',
+        one: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+            andereinfo: ''
+        },
         two: '',
         three: '',
         four: '',
@@ -29,7 +33,7 @@ const artworkOne = {
 const artworkTwo = {
     header: 'Rozet',
     links: {
-        one: 'test',
+        one: 'img/Brigitte_Stark_showcase.jpg',
         two: '',
         three: '',
         four: '',
@@ -44,7 +48,7 @@ const artworkTwo = {
 const artworkThree = {
     header: 'Bloemen',
     links: {
-        one: 'test',
+        one: 'img/Brigitte_Stark_showcase.jpg',
         two: '',
         three: '',
         four: '',
@@ -56,7 +60,7 @@ const artworkThree = {
 const artworkFour = {
     header: 'Hand',
     links: {
-        one: 'test',
+        one: 'img/Brigitte_Stark_showcase.jpg',
         two: '',
         three: '',
         four: '',
@@ -68,7 +72,7 @@ const artworkFour = {
 const artworkFive = {
     header: 'Lijnen',
     links: {
-        one: 'test',
+        one: 'img/Brigitte_Stark_showcase.jpg',
         two: '',
         three: '',
         four: '',

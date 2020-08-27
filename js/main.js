@@ -22,20 +22,25 @@ const router = new VueRouter({
             component: cirkels, props: {artworkOne}
         },
         {
-            path: '/werk/subonderwerp2',
+            path: '/werk/Rozet',
             component: rozet, props: {artworkTwo}
         },
         {
-            path: '/werk/subonderwerp3',
+            path: '/werk/Bloemen',
             component: bloemen, props: {artworkThree}
         },
         {
-            path: '/werk/subonderwerp4',
+            path: '/werk/Hand',
             component: hand, props: {artworkFour}
         },
         {
-            path: '/werk/subonderwerp5',
+            path: '/werk/Lijnen',
             component: lijnen, props: {artworkFive}
+        },
+        //all individual artworks
+        {
+            path: '/werk/cirkels/1',
+            component: cirkels1, props: {artworkOne}
         },
     ]
 })
