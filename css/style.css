@@ -20,6 +20,7 @@ body {
 }
 
 #footer {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -56,6 +57,27 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  #nav {
+    position: relative;
+  }
+  #nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 18px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 #nav .active {
   font-weight: 700;
 }
@@ -81,6 +103,12 @@ body {
 #content {
   margin-left: 20%;
   margin-top: 45px;
+}
+
+@media (max-width: 768px) {
+  #content {
+    margin-left: 0px;
+  }
 }
 
 #content .text {
@@ -190,6 +218,13 @@ body {
 }
 
 @media (min-width: 2000px) {
+  #content .onderwerp .onderwerp__flex .onderwerp__artwork {
+    width: 290px;
+    height: 290px;
+  }
+}
+
+@media (max-width: 768px) {
   #content .onderwerp .onderwerp__flex .onderwerp__artwork {
     width: 290px;
     height: 290px;
