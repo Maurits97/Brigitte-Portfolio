@@ -27,6 +27,10 @@ body {
 
 #header {
     margin-top: 80px;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+    }
     
     #header__name {
         text-transform: uppercase;
@@ -36,6 +40,10 @@ body {
 
         @media (min-width: 2000px) {
             font-size: 50px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 30px;
         }
     }
     
