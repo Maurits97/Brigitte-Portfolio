@@ -93,7 +93,8 @@ const cirkels = {
             <p class="text"> {{ artworkOne.text }}</p>
 
             <div class="onderwerp__flex">
-                <div class="onderwerp__artwork" v-for="href in artworkOne.links">{{href}}</div>
+                <div class="onderwerp__artwork" v-for="href in artworkOne.links" v-bind:style="{ backgroundImage: 'url(' + href + ')' }">
+                </div>
             </div>
         </div>
     `

@@ -16,7 +16,7 @@ const showcase = {
 const artworkOne = {
     header: 'Cirkels',
     links: {
-        one: 'test',
+        one: 'img/Brigitte_Stark_showcase.jpg',
         two: '',
         three: '',
         four: '',

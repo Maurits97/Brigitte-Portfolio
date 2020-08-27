@@ -217,10 +217,13 @@ body {
 }
 
 #content .onderwerp .onderwerp__flex .onderwerp__artwork {
+  display: block;
   width: 220px;
   height: 220px;
   background-color: grey;
   margin: 5px;
+  background-size: cover;
+  background-position-x: center;
 }
 
 @media (min-width: 2000px) {
