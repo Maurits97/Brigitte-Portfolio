@@ -163,6 +163,12 @@ body {
   margin-top: 15px;
 }
 
+@media (min-width: 2000px) {
+  #content #werk .werk__onderwerp {
+    font-size: 18px;
+  }
+}
+
 #content #werk .werk__onderwerp:first-child {
   margin-top: 20px;
 }
@@ -240,13 +246,33 @@ body {
   margin-top: 5px;
 }
 
+@media (min-width: 2000px) {
+  #content .contact {
+    font-size: 18px;
+  }
+}
+
 #content .contact .contact__name {
   font-size: 20px;
+}
+
+@media (min-width: 2000px) {
+  #content .contact .contact__name {
+    font-size: 25px;
+    margin-top: 30px;
+  }
 }
 
 #content .contact .contact__header {
   font-size: 17px;
   font-weight: 500;
   margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+@media (min-width: 2000px) {
+  #content .contact .contact__header {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -143,6 +143,10 @@ body {
             list-style-type: none;
             margin-top: 15px;
 
+            @media (min-width: 2000px){
+                font-size: 18px;
+            }
+
             &:first-child {
                 margin-top: 20px;
             }
@@ -217,14 +221,28 @@ body {
     }
 
     .contact {
+        @media (min-width: 2000px) {
+            font-size: 18px;
+        }
+
         .contact__name {
             font-size: 20px;
+
+            @media (min-width: 2000px) {
+                font-size: 25px;
+                margin-top: 30px;
+            }
         }
 
         .contact__header {
             font-size: 17px;
             font-weight: 500;
             margin-top: 10px;
+            margin-bottom: 1px;
+
+            @media (min-width: 2000px) {
+                font-size: 20px;
+            }
         }
     }
 }
