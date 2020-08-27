@@ -72,11 +72,12 @@ const contact = {
             <h2 class="contact__header">Atelier:</h2>
             <p>Dompvloedslaan 5-B</p>
             <p>2051 NA Overveen</p>
+            <br />
             <p>www.brigittestark.nl</p>
             <p>06-10871840</p>
             <br />
-            <h2 class="contact__header">Email:</h2>
-            <p>Brouwerstark@gmail.com</p>
+            <h2 class="contact__header">E-mail:</h2>
+            <p>brouwerstark@gmail.com</p>
         </div>
     `
 }
