@@ -15,6 +15,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  body {
+    width: 80%;
+  }
+}
+
 #app {
   min-height: 100vh;
 }
@@ -241,8 +247,8 @@ body {
 
 @media (max-width: 768px) {
   #content .onderwerp .onderwerp__flex .onderwerp__artwork {
-    width: 290px;
-    height: 290px;
+    width: 270px;
+    height: 270px;
   }
 }
 

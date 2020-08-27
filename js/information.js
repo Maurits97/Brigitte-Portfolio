@@ -10,7 +10,6 @@ const overmijText = {
     }
 }
     
-
 const contactText = {
     header: 'Contact',
     naam:'Brigitte Stark'

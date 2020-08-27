@@ -37,7 +37,6 @@ const router = new VueRouter({
             path: '/werk/Lijnen',
             component: lijnen, props: {artworkFive}
         },
-        //all individual artworks, needs attention
         {
             path: '/werk/cirkels/1',
             component: cirkels1, props: {artworkOne}

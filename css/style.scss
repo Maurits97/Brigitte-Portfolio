@@ -6,11 +6,14 @@
 
 body {
     width: 70%;
-    
     margin: 0 auto;
 
     @media (min-width: 2000px) {
         width: 60%;
+    }
+
+    @media (max-width: 768px) {
+        width: 80%;
     }
 }
 #app {
@@ -209,8 +212,8 @@ body {
                 }
 
                 @media (max-width: 768px) {
-                    width: 290px;
-                    height: 290px;
+                    width: 270px;
+                    height: 270px;
                 }
             }
         }
