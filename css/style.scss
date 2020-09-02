@@ -31,6 +31,10 @@ body {
     @media (max-width: 768px) {
         margin-top: 40px;
     }
+    .header__link {
+        text-decoration: none;
+        color: black;
+    }
     
     #header__name {
         text-transform: uppercase;

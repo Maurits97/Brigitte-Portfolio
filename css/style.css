@@ -40,6 +40,11 @@ body {
   }
 }
 
+#header .header__link {
+  text-decoration: none;
+  color: black;
+}
+
 #header #header__name {
   text-transform: uppercase;
   font-size: 40px;
