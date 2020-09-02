@@ -51,28 +51,20 @@ const artworkTwo = {
     textThree: 'De Sgrafittos waaronder de rozet zijn sinds de 15de eeuw een traditie in het Engadin. De eerste Sgrafitto-kunstenaars namen deze versiertechniek aan huizen mee van hun verblijf uit Italië. Na mijn middelbare school verhuisde ik naar Nederland. Pas na 25 jaar kwam ik regelmatig terug in het Engadin om te wandelen en te skiën. Ik zag de schilderingen op de huizen toen pas echt goed. Het zijn de grafische patronen die ik ook in mijn tekeningen gebruik.',
     links: {
         one: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/rozet/2019084.jpg',
+            pagelink: '/werk/rozet/2019084',
         },
         two: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/rozet/2020021.jpg',
+            pagelink: '/werk/rozet/2020021',
         },
         three: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/rozet/2020022.jpg',
+            pagelink: '/werk/rozet/2020022',
         },
         four: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        five: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        six: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/rozet/2020024.jpg',
+            pagelink: '/werk/rozet/2020024',
         }
     }
 }
@@ -81,28 +73,12 @@ const artworkThree = {
     text: 'Bloemen staan voor mij voor schoonheid, bloei en levensvreugde. Omdat de kroonblaadjes van vele bloemen op sterren lijken, zijn ze ook het zinnebeeld van de zon en van de aarde.',
     links: {
         one: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/bloemen/2018051.jpg',
+            pagelink: '/werk/bloemen/2018051',
         },
         two: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        three: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        four: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        five: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        six: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/bloemen/2018052.jpg',
+            pagelink: '/werk/bloemen/2018052',
         }
     }
 }
@@ -111,28 +87,16 @@ const artworkFour = {
     text: 'Mijn hand heeft een vastomlijnde vorm en lijkt op een bloem of een zon met stralen. De patronen weerspiegelen het karakter, de ziel. De uitgestrekte hand zoekt verbinding met de kijker.',
     links: {
         one: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/hand/201901.jpg',
+            pagelink: '/werk/hand/201901',
         },
         two: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/hand/2019041.jpg',
+            pagelink: '/werk/hand/2019041',
         },
         three: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        four: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        five: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        six: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/hand/2019043.jpg',
+            pagelink: '/werk/hand/2019043',
         },
     }
 }
@@ -141,12 +105,12 @@ const artworkFive = {
     text: 'De lijnen hebben niet een bepaalde symboliek. Ze kunnen oneindig zijn of een vorm aannemen. Het gaat hier om variaties van hetzelfde. Het zijn experimenten met dik versus dun, small versus breed, rechtlijnig of krullend, aan elkaar of gestipt. Je kunt ze met gedachten vergelijken of terugvinden als lijnen in de natuur.' ,
     links: {
         one: {
-            work: 'img/lijnen/201805A.jpg',
-            pagelink: '/werk/lijnen/201805A',
+            work: 'img/lijnen/2018034.jpg',
+            pagelink: '/werk/lijnen/2018034',
         },
         two: {
-            work: 'img/lijnen/201805B.jpg',
-            pagelink: '/werk/lijnen/201805B',
+            work: 'img/lijnen/2018041.jpg',
+            pagelink: '/werk/lijnen/2018041',
         },
         three: {
             work: 'img/lijnen/2016011.jpg',
@@ -173,12 +137,12 @@ const artworkFive = {
             pagelink: '/werk/lijnen/2018033',
         },
         nine: {
-            work: 'img/lijnen/2018034.jpg',
-            pagelink: '/werk/lijnen/2018034',
+            work: 'img/lijnen/201805A.jpg',
+            pagelink: '/werk/lijnen/201805A',
         },
         ten: {
-            work: 'img/lijnen/2018041.jpg',
-            pagelink: '/werk/lijnen/2018041',
+            work: 'img/lijnen/201805B.jpg',
+            pagelink: '/werk/lijnen/201805B',
         }
     }
 }
