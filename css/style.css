@@ -218,6 +218,15 @@ body {
   font-weight: 900;
 }
 
+#content .onderwerp .onderwerp__artwork__detail {
+  margin-top: 10px;
+  width: 80%;
+  height: 500px;
+  background-color: grey;
+  background-size: cover;
+  background-position-x: center;
+}
+
 #content .onderwerp .onderwerp__flex {
   display: -webkit-box;
   display: -ms-flexbox;

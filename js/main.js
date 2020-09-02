@@ -7,7 +7,7 @@ const router = new VueRouter({
         },
         {
             path: '/werk',
-            component: werk, props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive}
+            component: werk, props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix}
         },
         {
             path: '/overmij',
@@ -22,24 +22,36 @@ const router = new VueRouter({
             component: cirkels, props: {artworkOne}
         },
         {
-            path: '/werk/Rozet',
+            path: '/werk/rozet',
             component: rozet, props: {artworkTwo}
         },
         {
-            path: '/werk/Bloemen',
+            path: '/werk/bloemen',
             component: bloemen, props: {artworkThree}
         },
         {
-            path: '/werk/Hand',
+            path: '/werk/hand',
             component: hand, props: {artworkFour}
         },
         {
-            path: '/werk/Lijnen',
+            path: '/werk/lijnen',
             component: lijnen, props: {artworkFive}
         },
         {
-            path: '/werk/cirkels/1',
-            component: cirkels1, props: {artworkOne}
+            path: '/werk/sgraffito',
+            component: sgraffito, props: {artworkSix}
+        },
+        {
+            path: '/werk/cirkels/one',
+            component: cirkelsDetail, props: {artworkOne}
+        },
+        {
+            path: '/werk/cirkels/two',
+            component: cirkelsDetail, props: {artworkOne}
+        },
+        {
+            path: '/werk/cirkels/three',
+            component: cirkelsDetail, props: {artworkOne}
         },
     ]
 })
@@ -58,7 +70,7 @@ $(".nav__item").click(function(){
     $(this).addClass('active');
   });
 
-//Get year and 
+//Get year
 var d = new Date();
 var year = d.getFullYear();
 

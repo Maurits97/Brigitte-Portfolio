@@ -192,6 +192,15 @@ body {
             }
         }
 
+        .onderwerp__artwork__detail {
+            margin-top: 10px;
+            width: 80%;
+            height: 500px;
+            background-color: grey; //voor demonstratie
+            background-size: cover;
+            background-position-x: center;
+        }
+
         .onderwerp__flex {
             display: flex;
             flex-direction: row;

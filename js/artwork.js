@@ -1,9 +1,9 @@
-//all artwork variables
+//Props - all artwork variables
 //showcase
 const showcase = {
     href: 'img/Brigitte_Stark_showcase.jpg',
     info: {
-        headerOne: 'Authentieke patronen ',
+        headerOne: 'Authentieke patronen',
         textOne: 'Ik onderzoek en experimenteer met patronen die authentiek zijn, een tijdloze schoonheid in zich hebben. Dat kunnen patronen zijn in oude ambachten als muurschilderingen, borduurwerk, maar ook in modern design. Inspiratie haal ik overal vandaan waar geometrische patronen in voorkomen: van de geborduurde patronen op bandjes die mijn moeder op handdoeken aanbracht, van smeedijzeren hekwerken, tegels op stations, mozaïeken, kerkramen, versieringen in boeken, op aardewerk, borden, op huizen, Scandinavische stoffen, behang en in de natuur.',
         headerTwo: 'Materiaal',
         textTwo: 'Ik werk graag met gemengde technieken zoals alle soorten papier, fineliner en borduurgaren.',
@@ -15,70 +15,40 @@ const showcase = {
 //Artwork subjects
 const artworkOne = {
     header: 'Cirkels',
+    text: 'De cirkel drukt de totaliteit van de psyche in al haar aspecten uit en de verhouding tussen mens en natuur. Je vindt het terug in de primitieve zonneverering, alle godsdiensten,  mythen of dromen,  in de door Tibetaanse monniken getekende mandala’s of in de plattegrond van steden. Voor mij betekent het iets allesomvattends en contact met de kosmos.',
     links: {
         one: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/one',
         },
         two: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/two',
         },
         three: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/three',
         },
         four: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/four',
         },
         five: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/five',
         },
         six: {
             work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            pagelink: '/werk/cirkels/six',
         }
-    },
-    text: 'De cirkel drukt de totaliteit van de psyche in al haar aspecten uit en de verhouding tussen mens en natuur. Je vindt het terug in de primitieve zonneverering, alle godsdiensten,  mythen of dromen,  in de door Tibetaanse monniken getekende mandala’s of in de plattegrond van steden. Voor mij betekent het iets allesomvattends en contact met de kosmos.'
+    }
 }
 
 const artworkTwo = {
     header: 'Rozet',
-    links: {
-        one: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        two: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        three: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        four: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        five: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        },
-        six: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
-        }
-    },
     textOne: 'De rozet stamt uit de middeleeuwen en is gebaseerd op het symbool van het zonnerad. Het kan verschillende betekenissen hebben: vruchtbaarheid, harmonie, de scheppende kracht, perfectie en de zich naar alle kanten verspreide liefde van het goddelijke. Ik zie erin de zich verspreidende kracht van liefde.', 
     textTwo: 'Ik groeide op in het noorden van Zwitserland. Toen ik 11 jaar oud was, bracht ik met mijn klas 2 weken door in Samedan, een dorp in het Engadin, het zuidoosten van Zwitserland. Dit kamp heeft een grote indruk op mij gemaakt. De dagen werden afgewisseld met les, wandelen in de bergen, weven, tekenen van Sgrafittos, spelen en zingen. Ik heb een liefde voor het Engadin aan overgehouden met zijn sneuwbedekte bergen, zijn vergezichten, het uitgestrekte dal en zijn prachtig versierde huizen.',
     textThree: 'De Sgrafittos waaronder de rozet zijn sinds de 15de eeuw een traditie in het Engadin. De eerste Sgrafitto-kunstenaars namen deze versiertechniek aan huizen mee van hun verblijf uit Italië. Na mijn middelbare school verhuisde ik naar Nederland. Pas na 25 jaar kwam ik regelmatig terug in het Engadin om te wandelen en te skiën. Ik zag de schilderingen op de huizen toen pas echt goed. Het zijn de grafische patronen die ik ook in mijn tekeningen gebruik.',
-
-}
-const artworkThree = {
-    header: 'Bloemen',
     links: {
         one: {
             work: 'img/Brigitte_Stark_showcase.jpg',
@@ -104,11 +74,41 @@ const artworkThree = {
             work: 'img/Brigitte_Stark_showcase.jpg',
             pagelink: '/werk/cirkels/1',
         }
-    },
-    text: 'Bloemen staan voor mij voor schoonheid, bloei en levensvreugde. Omdat de kroonblaadjes van vele bloemen op sterren lijken, zijn ze ook het zinnebeeld van de zon en van de aarde.'
+    }
+}
+const artworkThree = {
+    header: 'Bloemen',
+    text: 'Bloemen staan voor mij voor schoonheid, bloei en levensvreugde. Omdat de kroonblaadjes van vele bloemen op sterren lijken, zijn ze ook het zinnebeeld van de zon en van de aarde.',
+    links: {
+        one: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        },
+        two: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        },
+        three: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        },
+        four: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        },
+        five: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        },
+        six: {
+            work: 'img/Brigitte_Stark_showcase.jpg',
+            pagelink: '/werk/cirkels/1',
+        }
+    }
 }
 const artworkFour = {
     header: 'Hand',
+    text: 'Mijn hand heeft een vastomlijnde vorm en lijkt op een bloem of een zon met stralen. De patronen weerspiegelen het karakter, de ziel. De uitgestrekte hand zoekt verbinding met de kijker.',
     links: {
         one: {
             work: 'img/Brigitte_Stark_showcase.jpg',
@@ -134,36 +134,69 @@ const artworkFour = {
             work: 'img/Brigitte_Stark_showcase.jpg',
             pagelink: '/werk/cirkels/1',
         },
-    },
-    text: 'Mijn hand heeft een vastomlijnde vorm en lijkt op een bloem of een zon met stralen. De patronen weerspiegelen het karakter, de ziel. De uitgestrekte hand zoekt verbinding met de kijker.'
+    }
 }
 const artworkFive = {
     header: 'Lijnen',
+    text: 'De lijnen hebben niet een bepaalde symboliek. Ze kunnen oneindig zijn of een vorm aannemen. Het gaat hier om variaties van hetzelfde. Het zijn experimenten met dik versus dun, small versus breed, rechtlijnig of krullend, aan elkaar of gestipt. Je kunt ze met gedachten vergelijken of terugvinden als lijnen in de natuur.' ,
     links: {
         one: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/201805A.jpg',
+            pagelink: '/werk/lijnen/201805A',
         },
         two: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/201805B.jpg',
+            pagelink: '/werk/lijnen/201805B',
         },
         three: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/2016011.jpg',
+            pagelink: '/werk/lijnen/2016011',
         },
         four: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/2018021.jpg',
+            pagelink: '/werk/lijnen/2018021',
         },
         five: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/2018022.jpg',
+            pagelink: '/werk/lijnen/2018022',
         },
         six: {
-            work: 'img/Brigitte_Stark_showcase.jpg',
-            pagelink: '/werk/cirkels/1',
+            work: 'img/lijnen/2018023.jpg',
+            pagelink: '/werk/lijnen/2018023',
         },
-    },
-    text: 'De lijnen hebben niet een bepaalde symboliek. Ze kunnen oneindig zijn of een vorm aannemen. Het gaat hier om variaties van hetzelfde. Het zijn experimenten met dik versus dun, small versus breed, rechtlijnig of krullend, aan elkaar of gestipt. Je kunt ze met gedachten vergelijken of terugvinden als lijnen in de natuur.' 
+        seven: {
+            work: 'img/lijnen/2018031.jpg',
+            pagelink: '/werk/lijnen/2018031',
+        },
+        eight: {
+            work: 'img/lijnen/2018033.jpg',
+            pagelink: '/werk/lijnen/2018033',
+        },
+        nine: {
+            work: 'img/lijnen/2018034.jpg',
+            pagelink: '/werk/lijnen/2018034',
+        },
+        ten: {
+            work: 'img/lijnen/2018041.jpg',
+            pagelink: '/werk/lijnen/2018041',
+        }
+    }
+}
+const artworkSix = {
+    header: 'Sgraffito',
+    text: '...text placeholder' ,
+    links: {
+        one: {
+            work: 'img/sgraffito/2019081.jpg',
+            pagelink: '/werk/cirkels/2019081',
+        },
+        two: {
+            work: 'img/sgraffito/2019082.jpg',
+            pagelink: '/werk/cirkels/2019082',
+        },
+        three: {
+            work: 'img/sgraffito/2019083.jpg',
+            pagelink: '/werk/cirkels/2019083',
+        },
+    }
 }

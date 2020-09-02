@@ -1,4 +1,4 @@
-//templates:
+//components - templates:
 //Level 1: home, galerij, overmij, contact
 //Level 2: onderwerp1, onderwerp 2, onderwerp 3, onderwerp 4
 //Level 3: Detail.
@@ -24,7 +24,7 @@ const home = {
     `
 }
 const werk = {
-    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive'],
+    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix'],
     template: `
         <div id="werk">
             <h1 class="header">Werk</h1>
@@ -33,16 +33,19 @@ const werk = {
                     <router-link class="werk__link" to= '/werk/cirkels'>{{artworkOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/Rozet'>{{artworkTwo.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/rozet'>{{artworkTwo.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/Bloemen'>{{artworkThree.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/bloemen'>{{artworkThree.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/Hand'>{{artworkFour.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/hand'>{{artworkFour.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/Lijnen'>{{artworkFive.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/lijnen'>{{artworkFive.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/Sgraffito'>{{artworkSix.header}}</router-link>
                 </li>
             </ul>
         </div>
@@ -93,8 +96,10 @@ const cirkels = {
             <p class="text"> {{ artworkOne.text }}</p>
 
             <div class="onderwerp__flex">
-                <div class="onderwerp__artwork" v-for="href in artworkOne.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
-                    <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+                <div class="onderwerp__artwork" v-for="artwork in artworkOne.links" v-bind:style="{ backgroundImage: 'url(' + artwork.work + ')' }">
+
+                <router-link class="onderwerp__artwork__pagelink" :to='artwork.pagelink'></router-link>
+                
                 </div>
             </div>
         </div>
@@ -171,10 +176,34 @@ const lijnen = {
     </div>
 `
 }
-
-//needs attention
-const cirkels1 = {
+const sgraffito = {
+    props: ['artworkSix'],
     template: `
-        <h1>test lol</h1>
+    <div class="onderwerp">
+        <h1 class="header">{{artworkSix.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ artworkSix.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkSix.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const cirkelsDetail = {
+    props: ['artworkOne'],
+    template: `
+    <div class="onderwerp">
+        <router-link class="onderwerp__terug" to='/werk/cirkels'>Terug</router-link>
+
+        <p>{{artworkOne}}</p>
+        <p>{{artworkOne_one}}</p>
+
+        <div class="onderwerp__artwork__detail" v-bind:style="{ backgroundImage: 'url(' + artworkOne.links.one.work + ')' }"></div>
+    </div>
     `
 }

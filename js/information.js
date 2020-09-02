@@ -1,4 +1,4 @@
-//basic information of creator
+//Info Props - basic information about creator
 
 const overmijText = {
     header: 'Over mij',
