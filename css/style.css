@@ -258,8 +258,8 @@ body {
 
 @media (min-width: 2000px) {
   #content .onderwerp .onderwerp__flex .onderwerp__artwork {
-    width: 290px;
-    height: 290px;
+    width: 350px;
+    height: 350px;
   }
 }
 
@@ -308,6 +308,20 @@ body {
   background-size: cover;
   background-position-x: center;
   margin-top: 30px;
+}
+
+@media (min-width: 2000px) {
+  #content .detail .detail--flex .detail__artwork {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  #content .detail .detail--flex .detail__artwork {
+    width: 100%;
+    min-height: 400px;
+  }
 }
 
 #content .detail .detail--flex .detail__aside {
