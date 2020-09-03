@@ -103,6 +103,7 @@ body {
 #content {
     margin-left: 20%;
     margin-top: 45px;
+    display: relative;
 
     @media (max-width: 768px) {
         margin-left: 0px;
@@ -196,15 +197,6 @@ body {
             }
         }
 
-        .onderwerp__artwork__detail {
-            margin-top: 10px;
-            width: 80%;
-            height: 500px;
-            background-color: grey; //voor demonstratie
-            background-size: cover;
-            background-position-x: center;
-        }
-
         .onderwerp__flex {
             display: flex;
             flex-direction: row;
@@ -235,6 +227,54 @@ body {
                 @media (max-width: 768px) {
                     width: 270px;
                     height: 270px;
+                }
+            }
+        }
+    }
+
+    .detail {
+        .detail__terug {
+            position: absolute;
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-style: italic;
+                
+            &:hover {
+                font-weight: 900;
+            }
+        }
+
+        .detail--flex {
+            display: flex;
+            flex-direction: row;
+
+            @media (max-width: 768px) {
+                flex-direction: column-reverse;
+            }
+
+            .detail__artwork {
+                width: 500px;
+                min-height: 500px;
+                background-color: grey;
+                background-size: cover;
+                background-position-x: center;
+                margin-top: 30px;
+            }
+    
+            .detail__aside {
+                width: 300px;
+                margin-top: 30px;
+                margin-left: 20px;
+
+                .detail__aside--header {
+                    font-weight: 500;
+                }
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                    margin-top: 30px;
+                    margin-left: 0px;
                 }
             }
         }

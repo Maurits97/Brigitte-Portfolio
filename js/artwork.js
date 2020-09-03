@@ -150,17 +150,17 @@ const artworkSix = {
     header: 'Sgraffito',
     text: '...text placeholder' ,
     links: {
-        one: {
+        '2019081': {
             work: 'img/sgraffito/2019081.jpg',
-            pagelink: '/werk/cirkels/2019081',
+            pagelink: '/werk/sgraffito/2019081',
         },
-        two: {
+        '2019082': {
             work: 'img/sgraffito/2019082.jpg',
-            pagelink: '/werk/cirkels/2019082',
+            pagelink: '/werk/sgraffito/2019082',
         },
-        three: {
+        '2019083': {
             work: 'img/sgraffito/2019083.jpg',
-            pagelink: '/werk/cirkels/2019083',
+            pagelink: '/werk/sgraffito/2019083',
         },
     }
 }

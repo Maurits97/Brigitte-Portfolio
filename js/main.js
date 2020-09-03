@@ -1,3 +1,10 @@
+//adding artwork steps:
+//Step 0: remember the number of the artwork (example: 2018032)
+//Step 1: Go to artwork.js
+//Step 2: Add artwork to concerned art theme
+//Step 3: Go to ArtworkInfo.js
+//Step 4: add artwork details to the object, leave index blank if no info.
+
 //all routes
 const router = new VueRouter({
     routes: [
@@ -19,39 +26,44 @@ const router = new VueRouter({
         },
         {
             path: '/werk/cirkels',
-            component: cirkels, props: {artworkOne}
+            name: 'cirkels',
+            component: cirkels, 
+            props: {artworkOne}
         },
         {
             path: '/werk/rozet',
-            component: rozet, props: {artworkTwo}
+            name: 'rozet',
+            component: rozet, 
+            props: {artworkTwo}
         },
         {
             path: '/werk/bloemen',
-            component: bloemen, props: {artworkThree}
+            name: 'bloemen',
+            component: bloemen, 
+            props: {artworkThree}
         },
         {
             path: '/werk/hand',
-            component: hand, props: {artworkFour}
+            name: 'hand',
+            component: hand, 
+            props: {artworkFour}
         },
         {
             path: '/werk/lijnen',
-            component: lijnen, props: {artworkFive}
+            name: 'lijnen',
+            component: lijnen, 
+            props: {artworkFive}
         },
         {
             path: '/werk/sgraffito',
-            component: sgraffito, props: {artworkSix}
+            name: 'sgraffito',
+            component: sgraffito, 
+            props: {artworkSix}
         },
         {
-            path: '/werk/cirkels/one',
-            component: cirkelsDetail, props: {artworkOne}
-        },
-        {
-            path: '/werk/cirkels/two',
-            component: cirkelsDetail, props: {artworkOne}
-        },
-        {
-            path: '/werk/cirkels/three',
-            component: cirkelsDetail, props: {artworkOne}
+            path: '/werk/:work/:image',
+            component: detail, 
+            props: {allArtworkInfo}
         },
     ]
 })

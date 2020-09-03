@@ -45,7 +45,7 @@ const werk = {
                     <router-link class="werk__link" to= '/werk/lijnen'>{{artworkFive.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/Sgraffito'>{{artworkSix.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/sgraffito'>{{artworkSix.header}}</router-link>
                 </li>
             </ul>
         </div>
@@ -136,6 +136,7 @@ const bloemen = {
 
         <div class="onderwerp__flex">
             <div class="onderwerp__artwork" v-for="href in artworkThree.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
@@ -194,16 +195,24 @@ const sgraffito = {
 `
 }
 
-const cirkelsDetail = {
-    props: ['artworkOne'],
+const detail = {
+    props: ['allArtworkInfo'],
     template: `
-    <div class="onderwerp">
-        <router-link class="onderwerp__terug" to='/werk/cirkels'>Terug</router-link>
+    <div class="detail">
+        <router-link class="detail__terug" :to='{name: $route.params.work}' >Terug</router-link>
 
-        <p>{{artworkOne}}</p>
-        <p>{{artworkOne_one}}</p>
+        <div class="detail--flex">
+            <div class="detail__artwork" v-bind:style="{ backgroundImage: 'url(' + 'img/' + $route.params.work + '/' + $route.params.image + '.jpg' + ')' }"></div>
 
-        <div class="onderwerp__artwork__detail" v-bind:style="{ backgroundImage: 'url(' + artworkOne.links.one.work + ')' }"></div>
+            <div class="detail__aside">
+                <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].titel}}</p>
+                <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].jaartal}}</p>
+                <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].techniek}}</p>
+                <p class="text">{{allArtworkInfo[$route.params.image].text}}</p>
+            </div>
+        </div>
     </div>
     `
 }
+
+//{{allArtworkInfo['work'].titel}}

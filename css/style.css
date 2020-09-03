@@ -126,6 +126,7 @@ body {
 #content {
   margin-left: 20%;
   margin-top: 45px;
+  display: relative;
 }
 
 @media (max-width: 768px) {
@@ -223,15 +224,6 @@ body {
   font-weight: 900;
 }
 
-#content .onderwerp .onderwerp__artwork__detail {
-  margin-top: 10px;
-  width: 80%;
-  height: 500px;
-  background-color: grey;
-  background-size: cover;
-  background-position-x: center;
-}
-
 #content .onderwerp .onderwerp__flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,6 +267,64 @@ body {
   #content .onderwerp .onderwerp__flex .onderwerp__artwork {
     width: 270px;
     height: 270px;
+  }
+}
+
+#content .detail .detail__terug {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+#content .detail .detail__terug:hover {
+  font-weight: 900;
+}
+
+#content .detail .detail--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  #content .detail .detail--flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+#content .detail .detail--flex .detail__artwork {
+  width: 500px;
+  min-height: 500px;
+  background-color: grey;
+  background-size: cover;
+  background-position-x: center;
+  margin-top: 30px;
+}
+
+#content .detail .detail--flex .detail__aside {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#content .detail .detail--flex .detail__aside .detail__aside--header {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  #content .detail .detail--flex .detail__aside {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
   }
 }
 
