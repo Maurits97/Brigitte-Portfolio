@@ -10,19 +10,23 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            component: home, props: {showcase}
+            component: home, 
+            props: {showcase}
         },
         {
             path: '/werk',
-            component: werk, props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix}
+            component: werk, 
+            props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix}
         },
         {
             path: '/overmij',
-            component: overmij, props: {overmijText}
+            component: overmij, 
+            props: {overmijText}
         },
         {
             path: '/contact',
-            component: contact, props: {contactText}
+            component: contact, 
+            props: {contactText}
         },
         {
             path: '/werk/cirkels',

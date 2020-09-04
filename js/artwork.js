@@ -150,15 +150,15 @@ const artworkSix = {
     header: 'Sgraffito',
     text: '...text placeholder' ,
     links: {
-        '2019081': {
+        one: {
             work: 'img/sgraffito/2019081.jpg',
             pagelink: '/werk/sgraffito/2019081',
         },
-        '2019082': {
+        two: {
             work: 'img/sgraffito/2019082.jpg',
             pagelink: '/werk/sgraffito/2019082',
         },
-        '2019083': {
+        three: {
             work: 'img/sgraffito/2019083.jpg',
             pagelink: '/werk/sgraffito/2019083',
         },

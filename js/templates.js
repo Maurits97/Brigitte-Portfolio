@@ -136,7 +136,6 @@ const bloemen = {
 
         <div class="onderwerp__flex">
             <div class="onderwerp__artwork" v-for="href in artworkThree.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
-
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>
@@ -214,5 +213,3 @@ const detail = {
     </div>
     `
 }
-
-//{{allArtworkInfo['work'].titel}}
