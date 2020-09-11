@@ -24,28 +24,31 @@ const home = {
     `
 }
 const werk = {
-    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix'],
+    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven'],
     template: `
         <div id="werk">
             <h1 class="header">Werk</h1>
             <ul>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/cirkels'>{{artworkOne.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/lijnen'>{{artworkOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/werk/rozet'>{{artworkTwo.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/bloemen'>{{artworkThree.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/windroos'>{{artworkThree.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/hand'>{{artworkFour.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/boomstam'>{{artworkFour.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/lijnen'>{{artworkFive.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/hand'>{{artworkFive.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/sgraffito'>{{artworkSix.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/driehoekenvierkant'>{{artworkSix.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/cirkels'>{{artworkSeven.header}}</router-link>
                 </li>
             </ul>
         </div>
@@ -57,6 +60,7 @@ const overmij = {
         <div class="overmij">
             <h1 class="header">{{overmijText.header}}</h1>
             <p class="text">{{overmijText.text}}</p>
+            <p class="text">{{overmijText.text2}}</p>
 
             <div class="overmij__exposities">
                 <p class="header__expositie"><i>Exposities</i></p>
@@ -86,7 +90,7 @@ const contact = {
 }
 
 //Level 2
-const cirkels = {
+const lijnen = {
     props: ['artworkOne'],
     template: `
         <div class="onderwerp">
@@ -115,7 +119,6 @@ const rozet = {
 
         <p class="text"> {{ artworkTwo.textOne }}</p>
         <p class="text"> {{ artworkTwo.textTwo }}</p>
-        <p class="text"> {{ artworkTwo.textThree }}</p>
 
         <div class="onderwerp__flex">
             <div class="onderwerp__artwork" v-for="href in artworkTwo.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
@@ -125,7 +128,7 @@ const rozet = {
     </div>
 `
 }
-const bloemen = {
+const windroos = {
     props: ['artworkThree'],
     template: `
     <div class="onderwerp">
@@ -142,7 +145,7 @@ const bloemen = {
     </div>
 `
 }
-const hand = {
+const boomstam = {
     props: ['artworkFour'],
     template: `
     <div class="onderwerp">
@@ -159,7 +162,8 @@ const hand = {
     </div>
 `
 }
-const lijnen = {
+
+const hand = {
     props: ['artworkFive'],
     template: `
     <div class="onderwerp">
@@ -176,7 +180,7 @@ const lijnen = {
     </div>
 `
 }
-const sgraffito = {
+const driehoekenvierkant = {
     props: ['artworkSix'],
     template: `
     <div class="onderwerp">
@@ -194,6 +198,25 @@ const sgraffito = {
 `
 }
 
+const cirkels = {
+    props: ['artworkSeven'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{artworkSeven.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ artworkSeven.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkSeven.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+
 const detail = {
     props: ['allArtworkInfo'],
     template: `
@@ -207,6 +230,7 @@ const detail = {
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].titel}}</p>
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].jaartal}}</p>
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].techniek}}</p>
+                <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].dimensie}}</p>
                 <p class="text">{{allArtworkInfo[$route.params.image].text}}</p>
             </div>
         </div>

@@ -16,7 +16,7 @@ const router = new VueRouter({
         {
             path: '/werk',
             component: werk, 
-            props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix}
+            props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven}
         },
         {
             path: '/overmij',
@@ -29,9 +29,9 @@ const router = new VueRouter({
             props: {contactText}
         },
         {
-            path: '/werk/cirkels',
-            name: 'cirkels',
-            component: cirkels, 
+            path: '/werk/lijnen',
+            name: 'lijnen',
+            component: lijnen, 
             props: {artworkOne}
         },
         {
@@ -41,28 +41,34 @@ const router = new VueRouter({
             props: {artworkTwo}
         },
         {
-            path: '/werk/bloemen',
-            name: 'bloemen',
-            component: bloemen, 
+            path: '/werk/windroos',
+            name: 'windroos',
+            component: windroos, 
             props: {artworkThree}
+        },
+        {
+            path: '/werk/boomstam',
+            name: 'boomstam',
+            component: boomstam, 
+            props: {artworkFour}
         },
         {
             path: '/werk/hand',
             name: 'hand',
             component: hand, 
-            props: {artworkFour}
-        },
-        {
-            path: '/werk/lijnen',
-            name: 'lijnen',
-            component: lijnen, 
             props: {artworkFive}
         },
         {
-            path: '/werk/sgraffito',
-            name: 'sgraffito',
-            component: sgraffito, 
+            path: '/werk/driehoekenvierkant',
+            name: 'driehoekenvierkant',
+            component: driehoekenvierkant, 
             props: {artworkSix}
+        },
+        {
+            path: '/werk/cirkels',
+            name: 'cirkels',
+            component: cirkels, 
+            props: {artworkSeven}
         },
         {
             path: '/werk/:work/:image',
