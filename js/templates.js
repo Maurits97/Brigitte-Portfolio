@@ -24,7 +24,7 @@ const home = {
     `
 }
 const werk = {
-    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven'],
+    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
     template: `
         <div id="werk">
             <h1 class="header">Werk</h1>
@@ -48,9 +48,26 @@ const werk = {
                     <router-link class="werk__link" to= '/werk/driehoekenvierkant'>{{artworkSix.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/cirkels'>{{artworkSeven.header}}</router-link>
+                    <router-link class="werk__link" to= '/werk/cirkel'>{{artworkSeven.header}}</router-link>
                 </li>
             </ul>
+            <h2 class="subheader">Werkboekjes</h2>
+            <ul>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/dekrachtvanimperfectie'>{{werkboekjeOne.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/foutjes'>{{werkboekjeTwo.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/sgraffitos'>{{werkboekjeThree.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/werk/droedelen'>{{werkboekjeFour.header}}</router-link>
+                </li>
+            </ul>
+
+
         </div>
     `
 }
@@ -198,7 +215,7 @@ const driehoekenvierkant = {
 `
 }
 
-const cirkels = {
+const cirkel = {
     props: ['artworkSeven'],
     template: `
     <div class="onderwerp">
@@ -209,6 +226,78 @@ const cirkels = {
 
         <div class="onderwerp__flex">
             <div class="onderwerp__artwork" v-for="href in artworkSeven.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const dekrachtvanimperfectie = {
+    props: ['werkboekjeOne'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{werkboekjeOne.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ werkboekjeOne.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in werkboekjeOne.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const foutjes = {
+    props: ['werkboekjeTwo'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{werkboekjeTwo.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ werkboekjeTwo.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in werkboekjeTwo.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const sgraffitos = {
+    props: ['werkboekjeThree'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{werkboekjeThree.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ werkboekjeThree.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in werkboekjeThree.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const droedelen = {
+    props: ['werkboekjeFour'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{werkboekjeFour.header}}</h1>
+        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+
+        <p class="text"> {{ werkboekjeFour.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in werkboekjeFour.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>

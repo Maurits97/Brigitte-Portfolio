@@ -256,7 +256,7 @@ const allArtworkInfo = {
         text: ''
     },
 
-    //cirkels
+    //cirkel
     '2020051': {
         titel: '',
         jaartal: '2020',
@@ -297,6 +297,92 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Collage van blaadjes pioenroos , fineliner op papier',
         dimensie: '21x29,5cm',
+        text: ''
+    },
+
+    //werkboekjes
+    'dekrachtvanimperfectie1': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'dekrachtvanimperfectie2': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'dekrachtvanimperfectie3': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'foutjes1': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'foutjes2': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'foutjes3': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'sgraffitos1': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'sgraffitos2': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'sgraffitos3': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'droedelen1': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'droedelen2': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
+        text: ''
+    },
+    'droedelen3': {
+        titel: '',
+        jaartal: '',
+        techniek: '',
+        dimensie: '',
         text: ''
     },
 }

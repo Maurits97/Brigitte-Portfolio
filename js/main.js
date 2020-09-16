@@ -16,7 +16,7 @@ const router = new VueRouter({
         {
             path: '/werk',
             component: werk, 
-            props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven}
+            props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven, werkboekjeOne, werkboekjeTwo, werkboekjeThree, werkboekjeFour}
         },
         {
             path: '/overmij',
@@ -65,10 +65,34 @@ const router = new VueRouter({
             props: {artworkSix}
         },
         {
-            path: '/werk/cirkels',
-            name: 'cirkels',
-            component: cirkels, 
+            path: '/werk/cirkel',
+            name: 'cirkel',
+            component: cirkel, 
             props: {artworkSeven}
+        },
+        {
+            path: '/werk/dekrachtvanimperfectie',
+            name: 'dekrachtvanimperfectie',
+            component: dekrachtvanimperfectie, 
+            props: {werkboekjeOne}
+        },
+        {
+            path: '/werk/foutjes',
+            name: 'foutjes',
+            component: foutjes, 
+            props: {werkboekjeTwo}
+        },
+        {
+            path: '/werk/sgraffitos',
+            name: 'sgraffitos',
+            component: sgraffitos, 
+            props: {werkboekjeThree}
+        },
+        {
+            path: '/werk/droedelen',
+            name: 'droedelen',
+            component: droedelen, 
+            props: {werkboekjeFour}
         },
         {
             path: '/werk/:work/:image',

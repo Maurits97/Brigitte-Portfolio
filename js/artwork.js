@@ -195,32 +195,108 @@ const artworkSix = {
 }
 
 const artworkSeven = {
-    header: 'Cirkels',
+    header: 'Cirkel',
     text: 'De cirkel drukt de totaliteit van de psyche in al haar aspecten uit en de verhouding tussen mens en natuur. Je vindt het terug in de primitieve zonneverering, alle godsdiensten,  mythen of dromen,  in de door Tibetaanse monniken getekende mandala’s of in de plattegrond van steden. Voor mij betekent het iets allesomvattends en contact met de kosmos.' ,
     links: {
         one: {
-            work: 'img/cirkels/2020051.jpg',
-            pagelink: '/werk/cirkels/2020051',
+            work: 'img/cirkel/2020051.jpg',
+            pagelink: '/werk/cirkel/2020051',
         },
         two: {
-            work: 'img/cirkels/2020052.jpg',
-            pagelink: '/werk/cirkels/2020052',
+            work: 'img/cirkel/2020052.jpg',
+            pagelink: '/werk/cirkel/2020052',
         },
         three: {
-            work: 'img/cirkels/2020053.jpg',
-            pagelink: '/werk/cirkels/2020053',
+            work: 'img/cirkel/2020053.jpg',
+            pagelink: '/werk/cirkel/2020053',
         },
         four: {
-            work: 'img/cirkels/2020054.jpg',
-            pagelink: '/werk/cirkels/2020054',
+            work: 'img/cirkel/2020054.jpg',
+            pagelink: '/werk/cirkel/2020054',
         },
         five: {
-            work: 'img/cirkels/2020055.jpg',
-            pagelink: '/werk/cirkels/2020055',
+            work: 'img/cirkel/2020055.jpg',
+            pagelink: '/werk/cirkel/2020055',
         },
         six: {
-            work: 'img/cirkels/2020056.jpg',
-            pagelink: '/werk/cirkels/2020056',
+            work: 'img/cirkel/2020056.jpg',
+            pagelink: '/werk/cirkel/2020056',
         },
     }
+}
+
+const werkboekjeOne = {
+    header: 'De kracht van imperfectie',
+    text: '' ,
+    links: {
+        one: {
+            work: 'img/dekrachtvanimperfectie/dekrachtvanimperfectie1.jpg',
+            pagelink: '/werk/dekrachtvanimperfectie/dekrachtvanimperfectie1',
+        },
+        two: {
+            work: 'img/dekrachtvanimperfectie/dekrachtvanimperfectie2.jpg',
+            pagelink: '/werk/dekrachtvanimperfectie/dekrachtvanimperfectie2',
+        },
+        three: {
+            work: 'img/dekrachtvanimperfectie/dekrachtvanimperfectie3.jpg',
+            pagelink: '/werk/dekrachtvanimperfectie/dekrachtvanimperfectie3',
+        },
+    },
+}
+
+const werkboekjeTwo = {
+    header: 'Foutjes',
+    text: '' ,
+    links: {
+        one: {
+            work: 'img/foutjes/foutjes1.jpg',
+            pagelink: '/werk/foutjes/foutjes1',
+        },
+        two: {
+            work: 'img/foutjes/foutjes2.jpg',
+            pagelink: '/werk/foutjes/foutjes2',
+        },
+        three: {
+            work: 'img/foutjes/foutjes3.jpg',
+            pagelink: '/werk/foutjes/foutjes3',
+        },
+    },
+}
+
+const werkboekjeThree = {
+    header: 'Sgraffitos',
+    text: '' ,
+    links: {
+        one: {
+            work: 'img/sgraffitos/sgraffitos1.jpg',
+            pagelink: '/werk/sgraffitos/sgraffitos1',
+        },
+        two: {
+            work: 'img/sgraffitos/sgraffitos2.jpg',
+            pagelink: '/werk/sgraffitos/sgraffitos2',
+        },
+        three: {
+            work: 'img/sgraffitos/sgraffitos3.jpg',
+            pagelink: '/werk/sgraffitos/sgraffitos3',
+        },
+    },
+}
+
+const werkboekjeFour = {
+    header: 'Droedelen',
+    text: '' ,
+    links: {
+        one: {
+            work: 'img/droedelen/droedelen1.jpg',
+            pagelink: '/werk/droedelen/droedelen1',
+        },
+        two: {
+            work: 'img/droedelen/droedelen2.jpg',
+            pagelink: '/werk/droedelen/droedelen2',
+        },
+        three: {
+            work: 'img/droedelen/droedelen3.jpg',
+            pagelink: '/werk/droedelen/droedelen3',
+        },
+    },
 }
