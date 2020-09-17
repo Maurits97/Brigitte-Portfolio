@@ -78,6 +78,7 @@ const overmij = {
             <h1 class="header">{{overmijText.header}}</h1>
             <p class="text">{{overmijText.text}}</p>
             <p class="text">{{overmijText.text2}}</p>
+            <p class="text">{{overmijText.text3}}</p>
 
             <div class="overmij__exposities">
                 <p class="header__expositie"><i>Exposities</i></p>

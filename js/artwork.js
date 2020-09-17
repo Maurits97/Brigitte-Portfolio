@@ -62,8 +62,8 @@ const artworkOne = {
 
 const artworkTwo = {
     header: 'Rozet',
-    textOne: 'De rozet stamt uit de middeleeuwen en is gebaseerd op het symbool van het zonnerad. Het kan verschillende betekenissen hebben: vruchtbaarheid, harmonie, de scheppende kracht, perfectie en de zich naar alle kanten verspreide liefde van het goddelijke. Ik zie erin schoonheid en de verspreidende kracht van liefde.', 
-    textTwo: 'De Sgrafittos waaronder de rozet zijn sinds de 15de eeuw een traditie in het Engadin. De eerste Sgrafitto-kunstenaars namen deze versiertechniek aan huizen mee van hun verblijf uit Italië. Na mijn middelbare school verhuisde ik naar Nederland. Pas na 25 jaar kwam ik regelmatig terug in het Engadin om te wandelen en te skiën. Ik zag de schilderingen op de huizen toen pas echt goed. Het zijn de grafische patronen die ik ook in mijn tekeningen gebruik. ',
+    textOne: 'De rozet stamt uit de middeleeuwen en is gebaseerd op het symbool van het zonnerad. Het kan verschillende betekenissen hebben: vruchtbaarheid, harmonie, het vrouwelijke, de liefde of de bemiddeling tussen hemel en aarde. Ik zie erin schoonheid en de verspreidende kracht van liefde.', 
+    textTwo: '',
     links: {
         one: {
             work: 'img/rozet/2016112.jpg',
