@@ -20,6 +20,9 @@ const home = {
                 <p class="text text--showcase"> {{showcase.info.textThree}} </p>
                 <br />
             </div>
+            <div class="text showcase--qoute">
+                <p class="qoute__text">{{showcase.info.qoute}}</p>
+            </div>
         </div>
     `
 }

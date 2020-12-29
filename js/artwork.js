@@ -9,6 +9,7 @@ const showcase = {
         textTwo: 'Ik werk graag met gemengde technieken zoals alle soorten papier, fineliner en borduurgaren.',
         headerThree: 'Oude patronen doorbreken',
         textThree: 'Uitgangspunt van mijn tekeningen is altijd een bestaand patroon. Ik begin met tekenen en droedelen. Niet bedenken vooraf, maar gaande weg een werk laten ontstaan. Loslaten. Ik teken expres foutjes in wat ik maak. Zo ontstaan interessante patronen en structuren. Het gevoel dat ik wil overbrengen heeft met kwetsbaarheid te maken, oude patronen doorbreken, grenzen verleggen, buiten kaders treden. De patronen die ik kies zijn vaak motieven die een eeuwenoude betekenis hebben. Met die motieven zoek ik verbinding met de kijker en de kosmos.',
+        qoute: 'Ik denk dat er meer is, dat we niet in staat zijn alle dimensies van ons bestaan te zien. Wat dat meer is, kan ik  niet benoemen. Maar je kunt verbinding met een groter geheel ervaren - en dan niet door te denken, maar door te voelen.'
     }
 }
 

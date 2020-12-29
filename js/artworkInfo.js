@@ -272,21 +272,21 @@ const allArtworkInfo = {
         text: ''
     },
     '2020053': {
-        titel: 'Chagall 1',
+        titel: 'Mystiek venster 2',
         jaartal: '2020',
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
         text: ''
     },
     '2020054': {
-        titel: 'Chagall 2',
+        titel: 'Mystiek venster 1',
         jaartal: '2020',
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: 'Prijs op aanvraag.'
     },
     '2020055': {
-        titel: 'Chagall 3',
+        titel: 'Mystiek venster 3',
         jaartal: '2020',
         techniek: 'Papier, potlood, fineliner',
         dimensie: '21x29,5cm',

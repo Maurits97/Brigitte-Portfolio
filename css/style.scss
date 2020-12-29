@@ -130,6 +130,8 @@ body {
         }
 
         .showcase__info {
+            // margin-bottom: 50px;
+
             h2 {
                 margin-top: 5px;
                 font-weight: 500;
@@ -142,6 +144,40 @@ body {
             .text--showcase {
                 margin-top: 10px;
             }
+        }
+
+        .showcase--qoute {
+            display: block;
+            max-width: 500px;
+            padding: 0 40px 0 40px;
+            margin: 50px auto;
+            text-align: center;
+            font-style: italic;
+            position: relative;
+
+            &:before {
+                content: '"';
+                font-size: 155px;
+                font-weight: 500;
+                font-style: italic;
+                position: absolute;
+                top: 30px;
+                left: -10px;
+                z-index: -1;
+                opacity: 0.2;
+              }
+            
+              &:after {
+                content: '"';
+                font-size: 155px;
+                font-weight: 500;
+                font-style: italic;
+                position: absolute;
+                bottom: -30px;
+                right: 0px;
+                z-index: -1;
+                opacity: 0.2;
+              }
         }
     }
 
