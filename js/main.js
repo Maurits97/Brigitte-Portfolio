@@ -19,7 +19,7 @@ const router = new VueRouter({
             props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven, werkboekjeOne, werkboekjeTwo, werkboekjeThree, werkboekjeFour}
         },
         {
-            path: '/overmij',
+            path: '/inspiratieEnCV',
             component: overmij, 
             props: {overmijText}
         },

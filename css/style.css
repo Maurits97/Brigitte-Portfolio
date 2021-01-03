@@ -158,19 +158,6 @@ body {
   width: 100%;
 }
 
-#content #showcase .showcase__info h2 {
-  margin-top: 5px;
-  font-weight: 500;
-}
-
-#content #showcase .showcase__info h2:first-child {
-  margin-top: 20px;
-}
-
-#content #showcase .showcase__info .text--showcase {
-  margin-top: 10px;
-}
-
 #content #showcase .showcase--qoute {
   display: block;
   max-width: 500px;

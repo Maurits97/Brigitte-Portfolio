@@ -9,17 +9,6 @@ const home = {
     template: `
         <div id="showcase">
             <img id="showcase__img" v-bind:src= "showcase.href" alt="showcase artwork" />
-            <div class="showcase__info">
-                <h2> {{showcase.info.headerOne}} </h2>
-                <p class="text text--showcase"> {{showcase.info.textOne}} </p>
-                <br />
-                <h2> {{showcase.info.headerTwo}} </h2>
-                <p class="text text--showcase"> {{showcase.info.textTwo}} </p>
-                <br />
-                <h2> {{showcase.info.headerThree}} </h2>
-                <p class="text text--showcase"> {{showcase.info.textThree}} </p>
-                <br />
-            </div>
             <div class="text showcase--qoute">
                 <p class="qoute__text">{{showcase.info.qoute}}</p>
             </div>
@@ -82,6 +71,8 @@ const overmij = {
             <p class="text">{{overmijText.text}}</p>
             <p class="text">{{overmijText.text2}}</p>
             <p class="text">{{overmijText.text3}}</p>
+            <h2 class="subheader">{{overmijText.cv.titel}}</h2>
+            <p class="text">{{overmijText.cv.text}}</p>
 
             <div class="overmij__exposities">
                 <p class="header__expositie"><i>Exposities</i></p>
