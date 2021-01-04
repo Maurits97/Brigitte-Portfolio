@@ -84,6 +84,10 @@ body {
     .nav__item {
         list-style-type: none;
         margin-top: 15px;
+
+        @media (max-width: 768px) {
+            padding-right: 15px;
+        }
         
         .link {
             text-decoration: none;

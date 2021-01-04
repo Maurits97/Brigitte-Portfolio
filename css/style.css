@@ -110,6 +110,12 @@ body {
   margin-top: 15px;
 }
 
+@media (max-width: 768px) {
+  #nav .nav__item {
+    padding-right: 15px;
+  }
+}
+
 #nav .nav__item .link {
   text-decoration: none;
   color: black;
