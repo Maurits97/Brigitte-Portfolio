@@ -8,7 +8,7 @@ const home = {
     props: ['showcase'],
     template: `
         <div id="showcase">
-            <img id="showcase__img" v-bind:src= "showcase.href" alt="showcase artwork" />
+            <router-link :to="showcase.artworkDetail"><img id="showcase__img" v-bind:src= "showcase.href" alt="showcase artwork" /></router-link>
             <div class="text showcase--qoute">
                 <p class="qoute__text">{{showcase.info.qoute}}</p>
             </div>
