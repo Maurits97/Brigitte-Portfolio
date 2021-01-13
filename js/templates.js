@@ -315,7 +315,9 @@ const detail = {
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].jaartal}}</p>
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].techniek}}</p>
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].dimensie}}</p>
-                <p class="text">{{allArtworkInfo[$route.params.image].text}}</p>
+                <p class="text">{{allArtworkInfo[$route.params.image].text.one}}</p>
+                <p class="text">{{allArtworkInfo[$route.params.image].text.two}}</p>
+                <p class="text">{{allArtworkInfo[$route.params.image].text.three}}</p>
             </div>
         </div>
     </div>

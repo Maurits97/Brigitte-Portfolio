@@ -283,7 +283,12 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
-        text: 'Prijs op aanvraag.'
+        text: {
+            one: 'Als Fine Art Print op Hahnemühle papier te koop. Gesigneerd en genummerd (slechts 50 stuks).',
+            two: '24cm x 32,8cm, prijs: € 50,-',
+            three: 'Bij brouwerstark@gmail.com'
+        }
+        
     },
     '2020055': {
         titel: 'Mystiek venster 3',
