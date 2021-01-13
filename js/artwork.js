@@ -2,7 +2,6 @@
 //showcase
 const showcase = {
     href: 'img/Brigitte_Stark_showcase.jpg',
-    artworkDetail: '/werk/cirkel/2020054',
     info: {
         qoute: 'Ik denk dat er meer is, dat we niet in staat zijn alle dimensies van ons bestaan te zien. Wat dat meer is, kan ik  niet benoemen. Maar je kunt verbinding met een groter geheel ervaren - en dan niet door te denken, maar door te voelen.'
     }
