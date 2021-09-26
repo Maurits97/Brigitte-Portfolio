@@ -5,70 +5,112 @@ const allArtworkInfo = {
         jaartal: '2016',
         techniek: 'Geprinte foto, borduurgaren',
         dimensie: '15x20cm',
-        text: 'Door toeval ontstond deze afruk met de printer omdat de inkt bijna op was.'
+        text: {
+            one: {
+                one: 'Door toeval ontstond deze afruk met de printer omdat de inkt bijna op was.'
+            },
+        },
     },
     '2018021': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt',
         dimensie: '14,5x21cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018022': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018023': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt, viltstift',
         dimensie: '14,5x21cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018031': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt, viltstift',
         dimensie: '14,5x21cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018033': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt',
         dimensie: '14,5x21cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018034': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt, viltstift',
         dimensie: '14,5x21cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018041': {
         titel: '',
         jaartal: '2018',
         techniek: 'Papier, Oost-Indische inkt, viltstift ',
         dimensie: '12,5x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '201805A': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, Oost-Indische inkt',
         dimensie: '21x26cm',
-        text: 'Houten ijsstokjes zijn gebruikt als sjabloon.'
+        text: {
+            one: {
+                one: 'Houten ijsstokjes zijn gebruikt als sjabloon.',
+                two: 'Prijs op aanvraag.'
+            },
+        },
     },
     '201805B': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, Oost-Indische inkt',
         dimensie: '21x26cm',
-        text: 'Houten ijsstokjes zijn gebruikt als sjabloon.'
+        text: {
+            one: {
+                one: 'Houten ijsstokjes zijn gebruikt als sjabloon.',
+                two: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //Rozet
@@ -77,63 +119,100 @@ const allArtworkInfo = {
         jaartal: '2016',
         techniek: 'Geprinte foto, borduurgaren',
         dimensie: '21x29,5cm',
-        text: 'Door toeval ontstond deze mysterieuze afdruk met de printer omdat de inkt bijna op was.'
+        text: {
+            one: {
+                one: 'Door toeval ontstond deze mysterieuze afdruk met de printer omdat de inkt bijna op was.',
+            },
+        },
     },
     '2018051': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, Oost-Indische inkt',
         dimensie: '24x29cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018052': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, Oost-Indische inkt, borduurgaren',
         dimensie: '24x29cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2019084': {
         titel: '',
         jaartal: '2019',
         techniek: 'Papier, potlood',
         dimensie: '21x29,5cm',
-        text: 'Variatie op een rozet op een huis in Scuol, Zwitserland.'
+        text: {
+            one: {
+                one: 'Variatie op een rozet op een huis in Scoul, Zwitserland.',
+                two: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020021': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020022': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020024': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020026': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020031': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //windroos
@@ -142,21 +221,33 @@ const allArtworkInfo = {
         jaartal: '2018',
         techniek: 'Tissue, papier, Oost-Indische inkt',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018042': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2018043': {
         titel: '',
         jaartal: '2018',
         techniek: 'Tissue, papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //boomstam
@@ -165,49 +256,77 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020022': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner',
         dimensie: '32x44cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020023': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020024': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020025': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020026': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x30cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020027': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //Hand
@@ -218,7 +337,8 @@ const allArtworkInfo = {
         dimensie: '63x89cm',
         text: {
             one: {
-                one: 'Geïnspireerd door Philippe Baudeloque, een Parijse kunstenaar. Hij tekent dieren met krijt op openbare muren, die ingevuld zijn met patronen en een eigen universum uitbeelden. Deze tekeningen zijn aanleiding voor gesprekken met mensen die langslopen en hem weer aanzetten tot nieuwe kunst. Philippe zoekt in zijn kunst verbinding met anderen en die gaat over het hart en niet over het verstand.'
+                one: 'Geïnspireerd door Philippe Baudeloque, een Parijse kunstenaar. Hij tekent dieren met krijt op openbare muren, die ingevuld zijn met patronen en een eigen universum uitbeelden. Deze tekeningen zijn aanleiding voor gesprekken met mensen die langslopen en hem weer aanzetten tot nieuwe kunst. Philippe zoekt in zijn kunst verbinding met anderen en die gaat over het hart en niet over het verstand.',
+                two: 'Prijs op aanvraag.'
             }
         }
     },
@@ -227,14 +347,22 @@ const allArtworkInfo = {
         jaartal: '2019',
         techniek: 'Papier, viltstift, Oost-Indische inkt, tape',
         dimensie: '52x64cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2019043': {
         titel: 'Philippe 4',
         jaartal: '2019',
         techniek: 'Papier, witte potlood, krijt',
         dimensie: '52x64cm.',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //Driehoek en vierkant
@@ -243,21 +371,34 @@ const allArtworkInfo = {
         jaartal: '2019',
         techniek: 'Papier, viltstift',
         dimensie: '17x17cm',
-        text: 'Uitgangspunt is een sgraffito met een driehoek en vierkant op een huis in Scuol, Zwitserland.'
+        text: {
+            one: {
+                one: 'Uitgangspunt is een sgraffito met een driehoek en vierkant op een huis in Scuol, Zwitserland.',
+                two: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2019082': {
         titel: '',
         jaartal: '2019',
         techniek: 'Papier, viltstift',
         dimensie: '17x17cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2019083': {
         titel: 'Engel',
         jaartal: '2019',
         techniek: 'Papier, viltstift',
         dimensie: '17x17cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //cirkel
@@ -266,21 +407,33 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020052': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van papier, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020053': {
         titel: 'Mystiek venster 2',
         jaartal: '2020',
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020054': {
         titel: 'Mystiek venster 1',
@@ -304,14 +457,22 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Papier, potlood, fineliner',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
     '2020056': {
         titel: '',
         jaartal: '2020',
         techniek: 'Collage van blaadjes pioenroos , fineliner op papier',
         dimensie: '21x29,5cm',
-        text: ''
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
     },
 
     //werkboekjes

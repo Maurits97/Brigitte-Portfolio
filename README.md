@@ -11,6 +11,5 @@ Art portfolio for Brigitte Stark
 - Live server packager (or drag index.html in browser)
 
 ### TODO
-- Overal prijs op aanvraag toevoegen
-- Check mystiek venster text loop.
-- Othe text on detail pages probably dont work anymore. Fix this!
+- Add content to exposities.
+- Add Ramen: nieuw! category in mijnwerk
