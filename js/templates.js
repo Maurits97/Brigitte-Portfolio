@@ -8,7 +8,7 @@ const home = {
     props: ['showcase'],
     template: `
         <div id="showcase">
-            <router-link to="/werk/cirkel/2020054"><img id="showcase__img" v-bind:src="showcase.href" alt="showcase artwork" /></router-link>
+            <router-link to="/mijnwerk/cirkel/2020054"><img id="showcase__img" v-bind:src="showcase.href" alt="showcase artwork" /></router-link>
             <div class="text showcase--qoute">
                 <p class="qoute__text">{{showcase.info.qoute}}</p>
             </div>
@@ -43,9 +43,6 @@ const werk = {
                 </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/hand'>{{artworkFive.header}}</router-link>
-                </li>
-                <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/driehoekenvierkant'>{{artworkSix.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/cirkel'>{{artworkSeven.header}}</router-link>
