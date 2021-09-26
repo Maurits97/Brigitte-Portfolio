@@ -216,7 +216,11 @@ const allArtworkInfo = {
         jaartal: '2019',
         techniek: 'Papier, Oost-Indische inkt, viltstift',
         dimensie: '63x89cm',
-        text: 'Geïnspireerd door Philippe Baudeloque, een Parijse kunstenaar. Hij tekent dieren met krijt op openbare muren, die ingevuld zijn met patronen en een eigen universum uitbeelden. Deze tekeningen zijn aanleiding voor gesprekken met mensen die langslopen en hem weer aanzetten tot nieuwe kunst. Philippe zoekt in zijn kunst verbinding met anderen en die gaat over het hart en niet over het verstand.'
+        text: {
+            one: {
+                one: 'Geïnspireerd door Philippe Baudeloque, een Parijse kunstenaar. Hij tekent dieren met krijt op openbare muren, die ingevuld zijn met patronen en een eigen universum uitbeelden. Deze tekeningen zijn aanleiding voor gesprekken met mensen die langslopen en hem weer aanzetten tot nieuwe kunst. Philippe zoekt in zijn kunst verbinding met anderen en die gaat over het hart en niet over het verstand.'
+            }
+        }
     },
     '2019041': {
         titel: 'Philippe 2',
@@ -284,9 +288,14 @@ const allArtworkInfo = {
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
         text: {
-            one: 'Als Fine Art Print op Hahnemühle papier te koop. Gesigneerd en genummerd (slechts 50 stuks).',
-            two: '24cm x 32,8cm, prijs: € 50,-',
-            three: 'Bij brouwerstark@gmail.com'
+            one: {
+                one: 'Deze tekening is geïnspireerd door een schilderij van Marc Chagall uit 1931: Interieur synagoge Safed, Palestina. In het midden van het schilderij heeft hij met losse, vrolijke toetsen een raam geschilderd. Het raam heeft de vorm van een roos. Op internet heb ik het raam in het echt gevonden, nagetekend en mijn eigen variatie op gemaakt. Dit raam heeft op mij een mystieke uitstraling. Ik voel  dat er meer is tussen hemel en aarde. ',
+            },
+            two: {
+                one: 'Als Fine Art Print op Hahnemühle papier te koop. Gesigneerd en genummerd (slechts 50 stuks).',
+                two: '24cm x 32,8cm, prijs: € 75,-',
+                three: 'Neem contact op met: brouwerstark@gmail.com',
+            },
         }
         
     },

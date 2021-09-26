@@ -14,12 +14,17 @@ const router = new VueRouter({
             props: {showcase}
         },
         {
-            path: '/werk',
+            path: '/exposities',
+            component: exposities, 
+            props: {expositiesText}
+        },
+        {
+            path: '/mijnwerk',
             component: werk, 
             props: {artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven, werkboekjeOne, werkboekjeTwo, werkboekjeThree, werkboekjeFour}
         },
         {
-            path: '/inspiratieEnCV',
+            path: '/overmij',
             component: overmij, 
             props: {overmijText}
         },
@@ -29,73 +34,73 @@ const router = new VueRouter({
             props: {contactText}
         },
         {
-            path: '/werk/lijnen',
+            path: '/mijnwerk/lijnen',
             name: 'lijnen',
             component: lijnen, 
             props: {artworkOne}
         },
         {
-            path: '/werk/rozet',
+            path: '/mijnwerk/rozet',
             name: 'rozet',
             component: rozet, 
             props: {artworkTwo}
         },
         {
-            path: '/werk/windroos',
+            path: '/mijnwerk/windroos',
             name: 'windroos',
             component: windroos, 
             props: {artworkThree}
         },
         {
-            path: '/werk/boomstam',
+            path: '/mijnwerk/boomstam',
             name: 'boomstam',
             component: boomstam, 
             props: {artworkFour}
         },
         {
-            path: '/werk/hand',
+            path: '/mijnwerk/hand',
             name: 'hand',
             component: hand, 
             props: {artworkFive}
         },
         {
-            path: '/werk/driehoekenvierkant',
+            path: '/mijnwerk/driehoekenvierkant',
             name: 'driehoekenvierkant',
             component: driehoekenvierkant, 
             props: {artworkSix}
         },
         {
-            path: '/werk/cirkel',
+            path: '/mijnwerk/cirkel',
             name: 'cirkel',
             component: cirkel, 
             props: {artworkSeven}
         },
         {
-            path: '/werk/dekrachtvanimperfectie',
+            path: '/mijnwerk/dekrachtvanimperfectie',
             name: 'dekrachtvanimperfectie',
             component: dekrachtvanimperfectie, 
             props: {werkboekjeOne}
         },
         {
-            path: '/werk/foutjes',
+            path: '/mijnwerk/foutjes',
             name: 'foutjes',
             component: foutjes, 
             props: {werkboekjeTwo}
         },
         {
-            path: '/werk/sgraffitos',
+            path: '/mijnwerk/sgraffitos',
             name: 'sgraffitos',
             component: sgraffitos, 
             props: {werkboekjeThree}
         },
         {
-            path: '/werk/droedelen',
+            path: '/mijnwerk/droedelen',
             name: 'droedelen',
             component: droedelen, 
             props: {werkboekjeFour}
         },
         {
-            path: '/werk/:work/:image',
+            path: '/mijnwerk/:work/:image',
             component: detail, 
             props: {allArtworkInfo}
         },

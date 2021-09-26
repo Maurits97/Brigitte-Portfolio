@@ -122,7 +122,7 @@ body {
 }
 
 #nav .nav__item .link:hover {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #nav .nav__item--focus {
@@ -162,6 +162,7 @@ body {
 
 #content #showcase #showcase__img {
   width: 100%;
+  border-radius: 3px;
 }
 
 #content #showcase .showcase--qoute {
@@ -281,6 +282,22 @@ body {
   margin: 5px;
   background-size: cover;
   background-position-x: center;
+  border-radius: 3px;
+  -webkit-transition: -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-in;
+  transition: -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-in;
+  transition: transform 100ms ease-in-out, box-shadow 100ms ease-in;
+  transition: transform 100ms ease-in-out, box-shadow 100ms ease-in, -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-in;
+}
+
+#content .onderwerp .onderwerp__flex .onderwerp__artwork:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-out;
+  transition: -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-out;
+  transition: transform 100ms ease-in-out, box-shadow 100ms ease-out;
+  transition: transform 100ms ease-in-out, box-shadow 100ms ease-out, -webkit-transform 100ms ease-in-out, -webkit-box-shadow 100ms ease-out;
 }
 
 #content .onderwerp .onderwerp__flex .onderwerp__artwork .onderwerp__artwork__pagelink {
@@ -341,6 +358,7 @@ body {
   background-size: cover;
   background-position-x: center;
   margin-top: 30px;
+  border-radius: 3px;
 }
 
 @media (min-width: 2000px) {
@@ -363,8 +381,16 @@ body {
   margin-left: 20px;
 }
 
+#content .detail .detail--flex .detail__aside .detail__aside-container {
+  margin-bottom: 32px;
+}
+
 #content .detail .detail--flex .detail__aside .detail__aside--header {
   font-weight: 500;
+}
+
+#content .detail .detail--flex .detail__aside .detail__aside--text {
+  margin-bottom: 8px;
 }
 
 @media (max-width: 768px) {

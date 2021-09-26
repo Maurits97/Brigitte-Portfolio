@@ -94,7 +94,7 @@ body {
             color: black;
             
             &:hover {
-                font-weight: 500;
+                font-weight: 600;
             }
         }
     }
@@ -131,6 +131,7 @@ body {
 
         #showcase__img {
             width: 100%;
+            border-radius: 3px;
         }
 
         .showcase--qoute {
@@ -241,6 +242,14 @@ body {
                 margin: 5px;
                 background-size: cover;
                 background-position-x: center;
+                border-radius: 3px;
+                transition: transform 100ms ease-in-out, box-shadow 100ms ease-in;
+                
+                &:hover {
+                    transform: scale(1.02);
+                    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                    transition: transform 100ms ease-in-out, box-shadow 100ms ease-out;
+                }
 
                 .onderwerp__artwork__pagelink {
                     display: block;
@@ -289,6 +298,7 @@ body {
                 background-size: cover;
                 background-position-x: center;
                 margin-top: 30px;
+                border-radius: 3px;
 
                 @media (min-width: 2000px) {
                     width: 700px;
@@ -306,8 +316,16 @@ body {
                 margin-top: 30px;
                 margin-left: 20px;
 
+                .detail__aside-container {
+                    margin-bottom: 32px;
+                }
+
                 .detail__aside--header {
                     font-weight: 500;
+                }
+
+                .detail__aside--text {
+                    margin-bottom: 8px;
                 }
 
                 @media (max-width: 768px) {

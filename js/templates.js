@@ -15,47 +15,55 @@ const home = {
         </div>
     `
 }
+const exposities = {
+    props: ['expositites'],
+    template: `
+        <div id="expositites">
+           <p>test</p>
+        </div>
+    `
+}
 const werk = {
     props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
     template: `
         <div id="werk">
-            <h1 class="header">Werk</h1>
+            <h1 class="header">Mijn werk</h1>
             <ul>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/lijnen'>{{artworkOne.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/lijnen'>{{artworkOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/rozet'>{{artworkTwo.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/rozet'>{{artworkTwo.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/windroos'>{{artworkThree.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/windroos'>{{artworkThree.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/boomstam'>{{artworkFour.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/boomstam'>{{artworkFour.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/hand'>{{artworkFive.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/hand'>{{artworkFive.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/driehoekenvierkant'>{{artworkSix.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/driehoekenvierkant'>{{artworkSix.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/cirkel'>{{artworkSeven.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/cirkel'>{{artworkSeven.header}}</router-link>
                 </li>
             </ul>
             <h2 class="subheader">Werkboekjes</h2>
             <ul>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/dekrachtvanimperfectie'>{{werkboekjeOne.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/dekrachtvanimperfectie'>{{werkboekjeOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/foutjes'>{{werkboekjeTwo.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/foutjes'>{{werkboekjeTwo.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/sgraffitos'>{{werkboekjeThree.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/sgraffitos'>{{werkboekjeThree.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/werk/droedelen'>{{werkboekjeFour.header}}</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/droedelen'>{{werkboekjeFour.header}}</router-link>
                 </li>
             </ul>
 
@@ -73,11 +81,6 @@ const overmij = {
             <p class="text">{{overmijText.text3}}</p>
             <h2 class="subheader">{{overmijText.cv.titel}}</h2>
             <p class="text">{{overmijText.cv.text}}</p>
-
-            <div class="overmij__exposities">
-                <p class="header__expositie"><i>Exposities</i></p>
-                <p class="overmij__expositie" v-for="expositie in overmijText.exposities">{{expositie}} </p>
-            </div>
         </div>
     `
 
@@ -107,7 +110,7 @@ const lijnen = {
     template: `
         <div class="onderwerp">
             <h1 class="header">{{artworkOne.header}}</h1>
-            <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+            <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
             <p class="text"> {{ artworkOne.text }}</p>
 
@@ -127,7 +130,7 @@ const rozet = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkTwo.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkTwo.textOne }}</p>
         <p class="text"> {{ artworkTwo.textTwo }}</p>
@@ -145,7 +148,7 @@ const windroos = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkThree.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkThree.text }}</p>
 
@@ -162,7 +165,7 @@ const boomstam = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkFour.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkFour.text }}</p>
 
@@ -180,7 +183,7 @@ const hand = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkFive.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkFive.text }}</p>
 
@@ -197,7 +200,7 @@ const driehoekenvierkant = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkSix.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkSix.text }}</p>
 
@@ -215,7 +218,7 @@ const cirkel = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{artworkSeven.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ artworkSeven.text }}</p>
 
@@ -233,7 +236,7 @@ const dekrachtvanimperfectie = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{werkboekjeOne.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ werkboekjeOne.text }}</p>
 
@@ -251,7 +254,7 @@ const foutjes = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{werkboekjeTwo.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ werkboekjeTwo.text }}</p>
 
@@ -269,7 +272,7 @@ const sgraffitos = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{werkboekjeThree.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ werkboekjeThree.text }}</p>
 
@@ -287,7 +290,7 @@ const droedelen = {
     template: `
     <div class="onderwerp">
         <h1 class="header">{{werkboekjeFour.header}}</h1>
-        <router-link class="onderwerp__terug" to='/werk'>Terug</router-link>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
 
         <p class="text"> {{ werkboekjeFour.text }}</p>
 
@@ -316,9 +319,11 @@ const detail = {
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].techniek}}</p>
                 <p class="detail__aside--header">{{allArtworkInfo[$route.params.image].dimensie}}</p>
                 <br />
-                <p>{{allArtworkInfo[$route.params.image].text.one}}</p>
-                <p>{{allArtworkInfo[$route.params.image].text.two}}</p>
-                <p>{{allArtworkInfo[$route.params.image].text.three}}</p>
+                <div class="detail__aside-container" v-for="textElement in allArtworkInfo[$route.params.image].text">
+                    <div v-for="text in textElement">
+                        <p class="detail__aside--text detail__aside--textExtra">{{ text }}</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
