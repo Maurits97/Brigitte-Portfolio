@@ -2,6 +2,7 @@
 Art portfolio for Brigitte Stark
 
 ## Image compress settings jpeg
+- http://jpeg-optimizer.com/
 - Compress image: 65
 - Resize: 1500
 
