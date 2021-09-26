@@ -9,3 +9,8 @@ Art portfolio for Brigitte Stark
 ## Start project:
 - Live sass compiler (VSC Package)
 - Live server packager (or drag index.html in browser)
+
+### TODO
+- Overal prijs op aanvraag toevoegen
+- Check mystiek venster text loop.
+- Othe text on detail pages probably dont work anymore. Fix this!
