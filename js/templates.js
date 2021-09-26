@@ -9,6 +9,7 @@ const home = {
     template: `
         <div id="showcase">
             <router-link to="/mijnwerk/cirkel/2020054"><img id="showcase__img" v-bind:src="showcase.href" alt="showcase artwork" /></router-link>
+            <p class="showcase__klik">Klik op de afbeelding voor meer informatie.</p>
             <div class="text showcase--qoute">
                 <p class="qoute__text">{{showcase.info.qoute}}</p>
             </div>
