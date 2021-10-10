@@ -15,7 +15,7 @@ const home = {
                 <div class="text">
                     <p>Kunstlijn Haarlem, groepsexpositie leden studio37</p>
                     <p>5 - 7 november 2021, Groot Heiligland 37</p>
-                    <p>Bekijk de poster: <router-link class="actueel-link" to="/exposities">klik hier</router-link></p>
+                    <p>Meer info: <router-link class="actueel-link" to="/exposities">klik hier</router-link></p>
                 </div>
             </div>
         </div>
