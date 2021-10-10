@@ -9,27 +9,68 @@ const home = {
     template: `
         <div id="showcase">
             <router-link to="/mijnwerk/cirkel/2020054"><img id="showcase__img" v-bind:src="showcase.href" alt="showcase artwork" /></router-link>
-            <p class="showcase__klik">Klik op de afbeelding voor meer informatie.</p>
-            <div class="text showcase--qoute">
-                <p class="qoute__text">{{showcase.info.qoute}}</p>
+            <p class="showcase__klik">Klik op de foto voor meer informatie.</p>
+            <div class="text">
+                <h2 class="subheader">Actueel</h2>
+                <div class="text">
+                    <p>Kunstlijn Haarlem, groepsexpositie leden studio37</p>
+                    <p>5 - 7 november 2021, Groot Heiligland 37</p>
+                    <p>Bekijk de poster: <router-link class="actueel-link" to="/exposities">klik hier</router-link></p>
+                </div>
             </div>
         </div>
     `
 }
 const exposities = {
-    props: ['expositites'],
+    props: ['expositiesText'],
     template: `
-        <div id="expositites">
-           <p>test</p>
+        <div id="expositites" class="detail">
+            <h1 class="header">{{ expositiesText.header }}</h1>
+
+            <h3 class="subheader">2021</h3>
+
+            <div class="detail--flex detail--flex-expo">
+                <div class="detail__artwork--expo" v-bind:style="{ backgroundImage: 'url(' + 'img/' + 'exposities' + '/' + 'poster_open_studio37_2021' + '.png' + ')' }"></div>
+
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.one.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.one.date }}</p>
+                </div>
+            </div>
+
+            <h3 class="subheader">2019</h3>
+
+            <div class="detail--flex detail--flex-expo">
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.two.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.two.date }}</p>
+                </div>
+            </div>
+
+            <h3 class="subheader">2018</h3>
+
+            <div class="detail--flex detail--flex-expo">
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.three.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.three.date }}</p>
+                </div>
+            </div>
+
         </div>
     `
 }
 const werk = {
-    props: ['artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
+    props: ['artworkzero', 'artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
     template: `
         <div id="werk">
             <h1 class="header">Mijn werk</h1>
             <ul>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/mijnwerk/ramen'>{{artworkZero.header}} - nieuw!</router-link>
+                </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/lijnen'>{{artworkOne.header}}</router-link>
                 </li>
@@ -103,6 +144,26 @@ const contact = {
 }
 
 //Level 2
+const ramen = {
+    props: ['artworkZero'],
+    template: `
+        <div class="onderwerp">
+            <h1 class="header">{{artworkZero.header}}</h1>
+            <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
+
+            <p class="text"> {{ artworkZero.text }}</p>
+
+            <div class="onderwerp__flex">
+                <div class="onderwerp__artwork" v-for="artwork in artworkZero.links" v-bind:style="{ backgroundImage: 'url(' + artwork.work + ')' }">
+
+                <router-link class="onderwerp__artwork__pagelink" :to='artwork.pagelink'></router-link>
+                
+                </div>
+            </div>
+        </div>
+    `
+}
+
 const lijnen = {
     props: ['artworkOne'],
     template: `

@@ -7,11 +7,12 @@ const showcase = {
     }
 }
 
-const expositiesText = {
-    text: 'expo test'
+//Artwork subjects
+const artworkZero = {
+    header: 'Ramen',
+    text: 'Bij deze tekeningen liet ik mij inspireren door de drie glas-in-loodramen bij het oude V&D gewbouw in Haarlem.'
 }
 
-//Artwork subjects
 const artworkOne = {
     header: 'Lijnen',
     text: 'Uit lijnen getekend of geborduurd, ontstaan patronen en cirkels.',
@@ -195,7 +196,7 @@ const artworkSix = {
 
 const artworkSeven = {
     header: 'Cirkel',
-    text: 'In deze serie zie je mijn voorkeur van cirkel, bloemen, roos en windroos terugkomen. Ik houd ervan omdat het een zo oud motief is en ook een mystieke betekenis heeft. Bij voorbeeld in de primitieve zonverering. Of in kerkramen of door Tibetaanse monniken getekende mandala’s of in de plattegrond van steden. Voor mij betekent het eenheid.' ,
+    text: 'In deze serie zie je mijn voorkeur voor cirkels, bloemen en (wind)rozen terugkomen. Ik houd ervan omdat het zo oude motieven zijn en ook een mystieke betekenis hebben. Bijvoorbeeld in de zonverering en bij primitieve werken. Of in kerkramen of door Tibetaanse monniken getekende mandala’s of in de plattegrond van steden. Voor mij betekent het eenheid.' ,
     links: {
         one: {
             work: 'img/cirkel/2020051.jpg',
@@ -214,10 +215,14 @@ const artworkSeven = {
             pagelink: '/mijnwerk/cirkel/2020054',
         },
         five: {
+            work: 'img/cirkel/202010.jpg',
+            pagelink: '/mijnwerk/cirkel/202010'
+        },
+        six: {
             work: 'img/cirkel/2020055.jpg',
             pagelink: '/mijnwerk/cirkel/2020055',
         },
-        six: {
+        seven: {
             work: 'img/cirkel/2020056.jpg',
             pagelink: 'mijn/werk/cirkel/2020056',
         },

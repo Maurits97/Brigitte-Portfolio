@@ -141,6 +141,12 @@ body {
             font-style: italic;
         }
 
+        .actueel-link {
+            text-decoration: underline;
+            color: black;
+            font-style: italic;
+        }
+
         .showcase--qoute {
             display: block;
             max-width: 500px;
@@ -317,6 +323,13 @@ body {
                     min-height: 400px;
                 }
             }
+
+            .detail__artwork--expo {
+                width: 500px;
+                height: auto;
+                aspect-ratio: 0.7;
+                background-size: cover;
+            }
     
             .detail__aside {
                 width: 300px;
@@ -340,6 +353,14 @@ body {
                     margin-top: 30px;
                     margin-left: 0px;
                 }
+            }
+        }
+
+        .detail--flex-expo {
+            margin-top: 20px;
+
+            .detail__aside {
+                margin-top: 0;
             }
         }
     }

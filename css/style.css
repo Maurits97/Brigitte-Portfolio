@@ -172,6 +172,12 @@ body {
   font-style: italic;
 }
 
+#content #showcase .actueel-link {
+  text-decoration: underline;
+  color: black;
+  font-style: italic;
+}
+
 #content #showcase .showcase--qoute {
   display: block;
   max-width: 500px;
@@ -382,6 +388,13 @@ body {
   }
 }
 
+#content .detail .detail--flex .detail__artwork--expo {
+  width: 500px;
+  height: auto;
+  aspect-ratio: 0.7;
+  background-size: cover;
+}
+
 #content .detail .detail--flex .detail__aside {
   width: 300px;
   margin-top: 30px;
@@ -406,6 +419,14 @@ body {
     margin-top: 30px;
     margin-left: 0px;
   }
+}
+
+#content .detail .detail--flex-expo {
+  margin-top: 20px;
+}
+
+#content .detail .detail--flex-expo .detail__aside {
+  margin-top: 0;
 }
 
 #content .overmij .overmij__exposities .header__expositie {

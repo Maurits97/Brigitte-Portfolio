@@ -1,4 +1,6 @@
 const allArtworkInfo = {
+    //Ramen
+    
     //Lijnen
     '2016011': {
         titel: 'Ewoud',
@@ -457,6 +459,17 @@ const allArtworkInfo = {
         jaartal: '2020',
         techniek: 'Papier, potlood, fineliner',
         dimensie: '21x29,5cm',
+        text: {
+            one: {
+                one: 'Prijs op aanvraag.'
+            },
+        },
+    },
+    '202010': {
+        title: 'Mystiek venster 4',
+        jaartal: '2020',
+        techniek: 'Papier, kleurpotlood, fineliner',
+        dimensie: '21 x 29,5cm',
         text: {
             one: {
                 one: 'Prijs op aanvraag.'
