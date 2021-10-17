@@ -133,4 +133,4 @@ var year = d.getFullYear();
 
 //set copyright in #footer
 const footer = document.getElementById('footer');
-footer.innerHTML = '<p>&copy; Copyright ' + year + ', Brigitte Stark</p>';
+footer.innerHTML = '<p>&copy; Copyright ' + year + ', Brigitte Stark, brouwerstark@gmail.com</p>';

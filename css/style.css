@@ -366,7 +366,7 @@ body {
 
 #content .detail .detail--flex .detail__artwork {
   width: 500px;
-  min-height: 500px;
+  height: 500px;
   background-color: grey;
   background-size: cover;
   background-position-x: center;

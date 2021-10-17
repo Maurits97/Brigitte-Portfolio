@@ -1,6 +1,26 @@
 const allArtworkInfo = {
     //Ramen
-    
+    '202110-123': {
+        titel: 'Raam',
+        jaartal: '2021',
+        techniek: 'Collage van papier, O-I inkt, fineliner',
+        dimensie: '38x137cm',
+        text: {
+            one: {
+                zero: '(€200,- per stuk, alle drie €500,-)',
+                one: 'Raam 1 (links)',
+                two: 'Inspiratie zijn motieven uit Egypte, het Romeinse Rijk, de Middeleeuwen en het heelal.'
+            },
+            two: {
+                one: 'Raam 2 (midden)',
+                two: 'Deze tekening is geïnspireerd door de Alpen in Zwitserland.'
+            },
+            three: {
+                one: 'Raam 3 (rechts)',
+                two: 'Inspiratie zijn de motieven op huizen in het zuidoosten van Zwitserland.'
+            }
+        }
+    },
     //Lijnen
     '2016011': {
         titel: 'Ewoud',
@@ -9,6 +29,7 @@ const allArtworkInfo = {
         dimensie: '15x20cm',
         text: {
             one: {
+                zero: '(Niet te koop)',
                 one: 'Door toeval ontstond deze afruk met de printer omdat de inkt bijna op was.'
             },
         },
@@ -20,7 +41,7 @@ const allArtworkInfo = {
         dimensie: '14,5x21cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -31,7 +52,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -42,7 +63,7 @@ const allArtworkInfo = {
         dimensie: '14,5x21cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -53,7 +74,7 @@ const allArtworkInfo = {
         dimensie: '14,5x21cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -64,7 +85,7 @@ const allArtworkInfo = {
         dimensie: '14,5x21cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -75,7 +96,7 @@ const allArtworkInfo = {
         dimensie: '14,5x21cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -86,7 +107,7 @@ const allArtworkInfo = {
         dimensie: '12,5x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€50,-)'
             },
         },
     },
@@ -98,7 +119,6 @@ const allArtworkInfo = {
         text: {
             one: {
                 one: 'Houten ijsstokjes zijn gebruikt als sjabloon.',
-                two: 'Prijs op aanvraag.'
             },
         },
     },
@@ -110,7 +130,6 @@ const allArtworkInfo = {
         text: {
             one: {
                 one: 'Houten ijsstokjes zijn gebruikt als sjabloon.',
-                two: 'Prijs op aanvraag.'
             },
         },
     },
@@ -123,6 +142,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
+                zero: '(Niet te koop)',
                 one: 'Door toeval ontstond deze mysterieuze afdruk met de printer omdat de inkt bijna op was.',
             },
         },
@@ -134,7 +154,7 @@ const allArtworkInfo = {
         dimensie: '24x29cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -145,7 +165,7 @@ const allArtworkInfo = {
         dimensie: '24x29cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -157,51 +177,51 @@ const allArtworkInfo = {
         text: {
             one: {
                 one: 'Variatie op een rozet op een huis in Scoul, Zwitserland.',
-                two: 'Prijs op aanvraag.'
+                two: ''
             },
         },
     },
-    '2020021': {
+    '2020021R': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
-    '2020022': {
+    '2020022R': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
-    '2020024': {
+    '2020024R': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner, viltstift',
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
-    '2020026': {
+    '2020026R': {
         titel: '',
         jaartal: '2020',
         techniek: 'Papier, fineliner',
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -212,7 +232,18 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
+            },
+        },
+    },
+    '2020112': {
+        titel: '',
+        jaartal: '2020',
+        techniek: 'Papier, kleurpotlood, fineliner',
+        dimensie: '25,3x33cm',
+        text: {
+            one: {
+                one: '(€100,-)'
             },
         },
     },
@@ -225,7 +256,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -236,7 +267,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -247,7 +278,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -260,7 +291,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -271,7 +302,7 @@ const allArtworkInfo = {
         dimensie: '32x44cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -282,7 +313,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -293,7 +324,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -304,7 +335,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -315,7 +346,7 @@ const allArtworkInfo = {
         dimensie: '21x30cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -326,7 +357,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -340,7 +371,7 @@ const allArtworkInfo = {
         text: {
             one: {
                 one: 'Geïnspireerd door Philippe Baudeloque, een Parijse kunstenaar. Hij tekent dieren met krijt op openbare muren, die ingevuld zijn met patronen en een eigen universum uitbeelden. Deze tekeningen zijn aanleiding voor gesprekken met mensen die langslopen en hem weer aanzetten tot nieuwe kunst. Philippe zoekt in zijn kunst verbinding met anderen en die gaat over het hart en niet over het verstand.',
-                two: 'Prijs op aanvraag.'
+                two: ''
             }
         }
     },
@@ -351,7 +382,7 @@ const allArtworkInfo = {
         dimensie: '52x64cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -362,7 +393,7 @@ const allArtworkInfo = {
         dimensie: '52x64cm.',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: ''
             },
         },
     },
@@ -411,7 +442,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -422,7 +453,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -433,7 +464,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -443,16 +474,14 @@ const allArtworkInfo = {
         techniek: 'Collage van papier, potlood, fineliner',
         dimensie: '21x29,5cm',
         text: {
+            two: {
+                zero: '(Origineel €100,-)',
+                one: 'Als Fine Art Print op Hahnemühle papier te koop. Gesigneerd en genummerd (slechts 50 stuks). 24cm x 32,8cm, prijs: € 50,-',
+            },
             one: {
                 one: 'Deze tekening is geïnspireerd door een schilderij van Marc Chagall uit 1931: Interieur synagoge Safed, Palestina. In het midden van het schilderij heeft hij met losse, vrolijke toetsen een raam geschilderd. Het raam heeft de vorm van een roos. Op internet heb ik het raam in het echt gevonden, nagetekend en mijn eigen variatie op gemaakt. Dit raam heeft op mij een mystieke uitstraling. Ik voel  dat er meer is tussen hemel en aarde. ',
             },
-            two: {
-                one: 'Als Fine Art Print op Hahnemühle papier te koop. Gesigneerd en genummerd (slechts 50 stuks).',
-                two: '24cm x 32,8cm, prijs: € 75,-',
-                three: 'Neem contact op met: brouwerstark@gmail.com',
-            },
         }
-        
     },
     '2020055': {
         titel: 'Mystiek venster 3',
@@ -461,7 +490,7 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -472,7 +501,7 @@ const allArtworkInfo = {
         dimensie: '21 x 29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
             },
         },
     },
@@ -483,7 +512,18 @@ const allArtworkInfo = {
         dimensie: '21x29,5cm',
         text: {
             one: {
-                one: 'Prijs op aanvraag.'
+                one: '(€100,-)'
+            },
+        },
+    },
+    '2020111': {
+        titel: '',
+        jaartal: '2020',
+        techniek: 'Papier, fineliner, bloemblaadjes',
+        dimensie: '29,8x42cm',
+        text: {
+            one: {
+                one: '(€100,-)'
             },
         },
     },

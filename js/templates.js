@@ -139,6 +139,8 @@ const contact = {
             <br />
             <h2 class="contact__header">E-mail:</h2>
             <p>brouwerstark@gmail.com</p>
+            <br />
+            <i>Alle prijzen van mijn werk zijn inclusief btw. maar exclusief verzendkosten</i>
         </div>
     `
 }

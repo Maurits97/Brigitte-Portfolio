@@ -10,7 +10,13 @@ const showcase = {
 //Artwork subjects
 const artworkZero = {
     header: 'Ramen',
-    text: 'Bij deze tekeningen liet ik mij inspireren door de drie glas-in-loodramen bij het oude V&D gewbouw in Haarlem.'
+    text: 'Deze drie tekeningen tonen patronen waarin invloeden uit verschillende tijden, culturen en plaatsen in lagen zijn getekend. De motieven stammen uit Egypte, het Romeinse Rijk, de Middeleeuwen, het heelal en uit de natuur',
+    links: {
+        one: {
+            work: 'img/ramen/202110-123.jpg',
+            pagelink: '/mijnwerk/ramen/202110-123'
+        }
+    }
 }
 
 const artworkOne = {
@@ -82,26 +88,29 @@ const artworkTwo = {
             pagelink: '/mijnwerk/rozet/2019084',
         },
         five: {
-            work: 'img/rozet/2020021.jpg',
-            pagelink: '/mijnwerk/rozet/2020021',
+            work: 'img/rozet/2020021R.jpg',
+            pagelink: '/mijnwerk/rozet/2020021R',
         },
         six: {
-            work: 'img/rozet/2020022.jpg',
-            pagelink: '/mijnwerk/rozet/2020022',
+            work: 'img/rozet/2020022R.jpg',
+            pagelink: '/mijnwerk/rozet/2020022R',
         },
         seven: {
-            work: 'img/rozet/2020024.jpg',
-            pagelink: '/mijnwerk/rozet/2020024',
+            work: 'img/rozet/2020024R.jpg',
+            pagelink: '/mijnwerk/rozet/2020024R',
         },
         eight: {
-            work: 'img/rozet/2020026.jpg',
-            pagelink: '/mijnwerk/rozet/2020026',
+            work: 'img/rozet/2020026R.jpg',
+            pagelink: '/mijnwerk/rozet/2020026R',
         },
         nine: {
             work: 'img/rozet/2020031.jpg',
             pagelink: '/mijnwerk/rozet/2020031',
-        }
-
+        },
+        nine: {
+            work: 'img/rozet/2020112.jpg',
+            pagelink: '/mijnwerk/rozet/2020112',
+        },
     }
 }
 const artworkThree = {
@@ -224,7 +233,11 @@ const artworkSeven = {
         },
         seven: {
             work: 'img/cirkel/2020056.jpg',
-            pagelink: 'mijn/werk/cirkel/2020056',
+            pagelink: '/mijnwerk/cirkel/2020056',
+        },
+        eight: {
+            work: 'img/cirkel/2020111.jpg',
+            pagelink: '/mijnwerk/cirkel/2020111'
         },
     }
 }
