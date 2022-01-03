@@ -10,17 +10,21 @@ const home = {
         <div id="showcase">
             <router-link to="/mijnwerk/cirkel/2020054"><img id="showcase__img" v-bind:src="showcase.href" alt="showcase artwork" /></router-link>
             <p class="showcase__klik">Klik op de foto voor meer informatie.</p>
-            <div class="text">
-                <h2 class="subheader">Actueel</h2>
-                <div class="text">
-                    <p>Kunstlijn Haarlem, groepsexpositie leden studio37</p>
-                    <p>5 - 7 november 2021, Groot Heiligland 37</p>
-                    <p>Meer info: <router-link class="actueel-link" to="/exposities">klik hier</router-link></p>
-                </div>
-            </div>
         </div>
     `
 }
+
+// homepage actueel code^^
+{/* <div class="text">
+    <h2 class="subheader">Actueel</h2>
+    <div class="text">
+        <p>Kunstlijn Haarlem, groepsexpositie leden studio37</p>
+        <p>5 - 7 november 2021, Groot Heiligland 37</p>
+        <p>Meer info: <router-link class="actueel-link" to="/exposities">klik hier</router-link></p>
+    </div>
+</div> */}
+
+
 const exposities = {
     props: ['expositiesText'],
     template: `
@@ -69,7 +73,7 @@ const werk = {
             <h1 class="header">Mijn werk</h1>
             <ul>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/ramen'>{{artworkZero.header}} - nieuw!</router-link>
+                    <router-link class="werk__link" to= '/mijnwerk/ramen'>{{artworkZero.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/lijnen'>{{artworkOne.header}}</router-link>
@@ -118,6 +122,7 @@ const overmij = {
             <p class="text">{{overmijText.text}}</p>
             <p class="text">{{overmijText.text2}}</p>
             <p class="text">{{overmijText.text3}}</p>
+            <img class="overmij__image" src="img/Brigitte_Stark_overmij.jpg" alt="foto brigitte" />
             <h2 class="subheader">{{overmijText.cv.titel}}</h2>
             <p class="text">{{overmijText.cv.text}}</p>
         </div>

@@ -429,6 +429,17 @@ body {
   margin-top: 0;
 }
 
+#content .overmij .overmij__image {
+  width: 50%;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  #content .overmij .overmij__image {
+    width: 100%;
+  }
+}
+
 #content .overmij .overmij__exposities .header__expositie {
   margin-top: 20px;
   margin-bottom: 10px;

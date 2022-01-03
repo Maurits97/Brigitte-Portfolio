@@ -11,5 +11,4 @@ Art portfolio for Brigitte Stark
 - Live server packager (or drag index.html in browser)
 
 ### TODO
-- Add content to exposities.
-- Add Ramen: nieuw! category in mijnwerk
+

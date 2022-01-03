@@ -366,6 +366,15 @@ body {
     }
 
     .overmij {
+        .overmij__image {
+            width: 50%;
+            margin-top: 16px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+        }
+
         .overmij__exposities {
             .header__expositie {
                 margin-top: 20px;
