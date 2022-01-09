@@ -18,6 +18,10 @@ const contactText = {
 
 const expositiesText = {
     header: 'Exposities',
+    zero: {
+        title: 'Cirkels in de hal van Overduin, Dompvloedslaan',
+        date: '2022, Overveen'
+    },
     one: {
         title: 'Kunstlijn Haarlem, groepsexpositie leden studio37',
         date: '5 - 7 november 2021, Groot Heiligland 37, Haarlem'

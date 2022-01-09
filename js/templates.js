@@ -31,8 +31,18 @@ const exposities = {
         <div id="expositites" class="detail">
             <h1 class="header">{{ expositiesText.header }}</h1>
 
-            <h3 class="subheader">2021</h3>
+            <h3 class="subheader">2022</h3>
+            <div class="detail--flex detail--flex-expo">
+                <div class="detail__artwork--expo" v-bind:style="{ backgroundImage: 'url(' + 'img/' + 'exposities' + '/' + 'brigitte_stark_overduin_expositie_2022' + '.jpg' + ')' }"></div>
 
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.zero.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.zero.date }}</p>
+                </div>
+            </div>
+
+            <h3 class="subheader">2021</h3>
             <div class="detail--flex detail--flex-expo">
                 <div class="detail__artwork--expo" v-bind:style="{ backgroundImage: 'url(' + 'img/' + 'exposities' + '/' + 'poster_open_studio37_2021' + '.png' + ')' }"></div>
 
