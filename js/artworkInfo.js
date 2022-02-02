@@ -21,6 +21,37 @@ const allArtworkInfo = {
             }
         }
     },
+    '202110-12': {
+        titel: 'Raam 1, 2 en 3',
+        jaartal: '2021',
+        techniek: 'Collage van papier, O-I inkt, fineliner',
+        dimensie: '38x137cm',
+        text: {
+            one: {
+                zero: '(€200,- per stuk, alle drie €500,-)',
+                one: 'Raam 1 (links)',
+                two: 'Inspiratie zijn motieven uit Egypte, het Romeinse Rijk, de Middeleeuwen en het heelal.'
+            },
+            two: {
+                one: 'Raam 2 (midden)',
+                two: 'Inspiratie zijn de motieven op huizen in het zuidoosten van Zwitserland.'
+            },
+            three: {
+                one: '',
+            }
+        }
+    },
+    '202110-3': {
+        titel: 'Raam 3',
+        jaartal: '2021',
+        techniek: 'Collage van papier, O-I inkt, fineliner',
+        dimensie: '38x137cm',
+        text: {
+            one: {
+                one: 'Deze tekening is geïnspireerd door de Alpen in Zwitserland.'
+            },
+        }
+    },
     //Lijnen
     '2016011': {
         titel: 'Ewoud',

@@ -10,11 +10,15 @@ const showcase = {
 //Artwork subjects
 const artworkZero = {
     header: 'Ramen',
-    text: 'Deze drie tekeningen tonen patronen waarin invloeden uit verschillende tijden, culturen en plaatsen in lagen zijn getekend. De motieven stammen uit Egypte, het Romeinse Rijk, de Middeleeuwen, het heelal en uit de natuur',
+    text: 'Deze drie tekeningen tonen patronen waarin invloeden uit verschillende tijden, culturen en plaatsen in lagen zijn getekend. De motieven stammen uit Egypte, het Romeinse Rijk, de Middeleeuwen, het heelal en uit de natuur.',
     links: {
         one: {
-            work: 'img/ramen/202110-123.jpg',
-            pagelink: '/mijnwerk/ramen/202110-123'
+            work: 'img/ramen/202110-12.jpg',
+            pagelink: '/mijnwerk/ramen/202110-12'
+        },
+        two: {
+            work: 'img/ramen/202110-3.jpg',
+            pagelink: '/mijnwerk/ramen/202110-3'
         }
     }
 }
