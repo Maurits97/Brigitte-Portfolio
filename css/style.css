@@ -395,6 +395,12 @@ body {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  #content .detail .detail--flex .detail__artwork--expo {
+    width: 100%;
+  }
+}
+
 #content .detail .detail--flex .detail__aside {
   width: 300px;
   margin-top: 30px;

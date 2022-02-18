@@ -329,6 +329,10 @@ body {
                 height: auto;
                 aspect-ratio: 0.7;
                 background-size: cover;
+
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
             }
     
             .detail__aside {
