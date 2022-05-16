@@ -1,27 +1,6 @@
 const allArtworkInfo = {
     //Ramen
-    '202110-123': {
-        titel: 'Raam',
-        jaartal: '2021',
-        techniek: 'Collage van papier, O-I inkt, fineliner',
-        dimensie: '38x137cm',
-        text: {
-            one: {
-                zero: '(€200,- per stuk, alle drie €500,-)',
-                one: 'Raam 1 (links)',
-                two: 'Inspiratie zijn motieven uit Egypte, het Romeinse Rijk, de Middeleeuwen en het heelal.'
-            },
-            two: {
-                one: 'Raam 2 (midden)',
-                two: 'Deze tekening is geïnspireerd door de Alpen in Zwitserland.'
-            },
-            three: {
-                one: 'Raam 3 (rechts)',
-                two: 'Inspiratie zijn de motieven op huizen in het zuidoosten van Zwitserland.'
-            }
-        }
-    },
-    '202110-12': {
+    'ramen123': {
         titel: 'Raam 1, 2 en 3',
         jaartal: '2021',
         techniek: 'Collage van papier, O-I inkt, fineliner',
@@ -29,27 +8,17 @@ const allArtworkInfo = {
         text: {
             one: {
                 zero: '(€200,- per stuk, alle drie €500,-)',
-                one: 'Raam 1 (links)',
+                one: 'Raam links',
                 two: 'Inspiratie zijn motieven uit Egypte, het Romeinse Rijk, de Middeleeuwen en het heelal.'
             },
             two: {
-                one: 'Raam 2 (midden)',
-                two: 'Inspiratie zijn de motieven op huizen in het zuidoosten van Zwitserland.'
+                one: 'Raam midden',
+                two: 'Deze tekening is geïnspireerd door de Alpen in Zwitserland.'
             },
             three: {
-                one: '',
+                one: 'Raam rechts',
+                two: 'Inspiratie zijn de motieven op huizen in het zuidoosten van Zwitserland.'
             }
-        }
-    },
-    '202110-3': {
-        titel: 'Raam 3',
-        jaartal: '2021',
-        techniek: 'Collage van papier, O-I inkt, fineliner',
-        dimensie: '38x137cm',
-        text: {
-            one: {
-                one: 'Deze tekening is geïnspireerd door de Alpen in Zwitserland.'
-            },
         }
     },
     //Lijnen
@@ -515,7 +484,7 @@ const allArtworkInfo = {
         }
     },
     '2020055': {
-        titel: 'Mystiek venster 3',
+        titel: 'Mystiek venster 4',
         jaartal: '2020',
         techniek: 'Papier, potlood, fineliner',
         dimensie: '21x29,5cm',
@@ -526,7 +495,7 @@ const allArtworkInfo = {
         },
     },
     '202010': {
-        title: 'Mystiek venster 4',
+        titel: 'Mystiek venster 3',
         jaartal: '2020',
         techniek: 'Papier, kleurpotlood, fineliner',
         dimensie: '21 x 29,5cm',
@@ -537,7 +506,7 @@ const allArtworkInfo = {
         },
     },
     '2020056': {
-        titel: '',
+        titel: 'Mystiek venster 5',
         jaartal: '2020',
         techniek: 'Collage van blaadjes pioenroos , fineliner op papier',
         dimensie: '21x29,5cm',
@@ -548,7 +517,7 @@ const allArtworkInfo = {
         },
     },
     '2020111': {
-        titel: '',
+        titel: 'Mystiek venster 6',
         jaartal: '2020',
         techniek: 'Papier, fineliner, bloemblaadjes',
         dimensie: '29,8x42cm',
@@ -557,6 +526,20 @@ const allArtworkInfo = {
                 one: '(€100,-)'
             },
         },
+    },
+
+    //fragiel
+    'fragiel2': {
+        titel: 'Fragiel 2',
+        jaartal: '2022',
+        techniek: 'Papier, fineliner, kleurpotlood',
+        dimensie: '29,7x42cm',
+    },
+    'fragiel3': {
+        titel: 'Fragiel 3',
+        jaartal: '2022',
+        techniek: 'Papier, fineliner, bloemblaadjes',
+        dimensie: '29,7x42x8cm, driedimensionaal',
     },
 
     //werkboekjes

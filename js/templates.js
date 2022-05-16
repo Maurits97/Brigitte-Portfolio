@@ -33,6 +33,22 @@ const exposities = {
 
             <h3 class="subheader">2022</h3>
             <div class="detail--flex detail--flex-expo">
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.four.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.four.date }}</p>
+                </div>
+            </div>
+
+            <div class="detail--flex detail--flex-expo">
+                <div class="detail__aside">
+                    <p class="detail__aside--header">{{ expositiesText.five.title }}</p>
+                    <br />
+                    <p class="detail__aside--text">{{ expositiesText.five.date }}</p>
+                </div>
+            </div>
+
+            <div class="detail--flex detail--flex-expo">
                 <div class="detail__artwork--expo" v-bind:style="{ backgroundImage: 'url(' + 'img/' + 'exposities' + '/' + 'brigitte_stark_overduin_expositie_2022' + '.jpg' + ')' }"></div>
 
                 <div class="detail__aside">
@@ -77,31 +93,34 @@ const exposities = {
     `
 }
 const werk = {
-    props: ['artworkzero', 'artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
+    props: ['artworkzero', 'artworkOne', 'artworkTwo', 'artworkThree', 'artworkFour', 'artworkFive', 'artworkSix', 'artworkSeven', 'artworkEight', 'werkboekjeOne', 'werkboekjeTwo', 'werkboekjeThree', 'werkboekjeFour'],
     template: `
         <div id="werk">
             <h1 class="header">Mijn werk</h1>
             <ul>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/ramen'>{{artworkZero.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/boomstam'>{{artworkFour.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/lijnen'>{{artworkOne.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/cirkel'>{{artworkSeven.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/rozet'>{{artworkTwo.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/fragiel'>{{artworkEight.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/windroos'>{{artworkThree.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/hand'>{{artworkFive.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/boomstam'>{{artworkFour.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/lijnen'>{{artworkOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/hand'>{{artworkFive.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/ramen'>{{artworkZero.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/cirkel'>{{artworkSeven.header}}</router-link>
+                    <router-link class="werk__link" to='/mijnwerk/rozet'>{{artworkTwo.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
+                    <router-link class="werk__link" to='/mijnwerk/windroos'>{{artworkThree.header}}</router-link>
                 </li>
             </ul>
             <h2 class="subheader">Werkboekjes</h2>
@@ -110,13 +129,13 @@ const werk = {
                     <router-link class="werk__link" to= '/mijnwerk/dekrachtvanimperfectie'>{{werkboekjeOne.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
+                    <router-link class="werk__link" to= '/mijnwerk/droedelen'>{{werkboekjeFour.header}}</router-link>
+                </li>
+                <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/foutjes'>{{werkboekjeTwo.header}}</router-link>
                 </li>
                 <li class="werk__onderwerp">
                     <router-link class="werk__link" to= '/mijnwerk/sgraffitos'>{{werkboekjeThree.header}}</router-link>
-                </li>
-                <li class="werk__onderwerp">
-                    <router-link class="werk__link" to= '/mijnwerk/droedelen'>{{werkboekjeFour.header}}</router-link>
                 </li>
             </ul>
 
@@ -133,6 +152,7 @@ const overmij = {
             <p class="text">{{overmijText.text2}}</p>
             <p class="text">{{overmijText.text3}}</p>
             <img class="overmij__image" src="img/Brigitte_Stark_overmij.jpg" alt="foto brigitte" />
+            <img class="overmij__werktafel" src="img/Brigitte_Stark_werktafel.jpg" alt="Brigitte Stark werkplek" />
             <h2 class="subheader">{{overmijText.cv.titel}}</h2>
             <p class="text">{{overmijText.cv.text}}</p>
         </div>
@@ -300,6 +320,24 @@ const cirkel = {
 
         <div class="onderwerp__flex">
             <div class="onderwerp__artwork" v-for="href in artworkSeven.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
+                <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
+            </div>
+        </div>
+    </div>
+`
+}
+
+const fragiel = {
+    props: ['artworkEight'],
+    template: `
+    <div class="onderwerp">
+        <h1 class="header">{{artworkEight.header}}</h1>
+        <router-link class="onderwerp__terug" to='/mijnwerk'>Terug</router-link>
+
+        <p class="text"> {{ artworkEight.text }}</p>
+
+        <div class="onderwerp__flex">
+            <div class="onderwerp__artwork" v-for="href in artworkEight.links" v-bind:style="{ backgroundImage: 'url(' + href.work + ')' }">
                 <router-link class="onderwerp__artwork__pagelink" :to=href.pagelink></router-link>
             </div>
         </div>

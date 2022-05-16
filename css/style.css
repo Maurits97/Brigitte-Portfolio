@@ -26,7 +26,7 @@ body {
 }
 
 #footer {
-  margin-top: 20px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -444,6 +444,11 @@ body {
   #content .overmij .overmij__image {
     width: 100%;
   }
+}
+
+#content .overmij .overmij__werktafel {
+  width: 100%;
+  margin-top: 16px;
 }
 
 #content .overmij .overmij__exposities .header__expositie {

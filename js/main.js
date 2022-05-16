@@ -21,7 +21,7 @@ const router = new VueRouter({
         {
             path: '/mijnwerk',
             component: werk, 
-            props: {artworkZero, artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven, werkboekjeOne, werkboekjeTwo, werkboekjeThree, werkboekjeFour}
+            props: {artworkZero, artworkOne, artworkTwo, artworkThree, artworkFour, artworkFive, artworkSix, artworkSeven, artworkEight, werkboekjeOne, werkboekjeTwo, werkboekjeThree, werkboekjeFour}
         },
         {
             path: '/overmij',
@@ -32,6 +32,12 @@ const router = new VueRouter({
             path: '/contact',
             component: contact, 
             props: {contactText}
+        },
+        {
+            path: '/mijnwerk/fragiel',
+            name: 'fragiel',
+            component: fragiel,
+            props: {artworkEight}
         },
         {
             path: '/mijnwerk/ramen',

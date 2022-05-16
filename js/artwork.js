@@ -12,14 +12,10 @@ const artworkZero = {
     header: 'Ramen',
     text: 'Deze drie tekeningen tonen patronen waarin invloeden uit verschillende tijden, culturen en plaatsen in lagen zijn getekend. De motieven stammen uit Egypte, het Romeinse Rijk, de Middeleeuwen, het heelal en uit de natuur.',
     links: {
-        one: {
-            work: 'img/ramen/202110-12.jpg',
-            pagelink: '/mijnwerk/ramen/202110-12'
-        },
-        two: {
-            work: 'img/ramen/202110-3.jpg',
-            pagelink: '/mijnwerk/ramen/202110-3'
-        }
+        zero: {
+            work: 'img/ramen/ramen123.jpg',
+            pagelink: '/mijnwerk/ramen/ramen123'
+        }, 
     }
 }
 
@@ -220,12 +216,12 @@ const artworkSeven = {
             pagelink: '/mijnwerk/cirkel/2020052',
         },
         three: {
-            work: 'img/cirkel/2020053.jpg',
-            pagelink: '/mijnwerk/cirkel/2020053',
-        },
-        four: {
             work: 'img/cirkel/2020054.jpg',
             pagelink: '/mijnwerk/cirkel/2020054',
+        },
+        four: {
+            work: 'img/cirkel/2020053.jpg',
+            pagelink: '/mijnwerk/cirkel/2020053',
         },
         five: {
             work: 'img/cirkel/202010.jpg',
@@ -245,6 +241,22 @@ const artworkSeven = {
         },
     }
 }
+
+const artworkEight = {
+    header: 'Fragiel',
+    text: '' ,
+    links: {
+        one: {
+            work: 'img/fragiel/Fragiel2.jpg',
+            pagelink: '/mijnwerk/fragiel/fragiel2',
+        },
+        two: {
+            work: 'img/fragiel/Fragiel3.jpg',
+            pagelink: '/mijnwerk/fragiel/fragiel3',
+        },
+    }
+}
+
 
 const werkboekjeOne = {
     header: 'De kracht van imperfectie',

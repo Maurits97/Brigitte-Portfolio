@@ -6,7 +6,7 @@ const overmijText = {
     text2: 'Ik knip en plak in bestaand werk. Er ontstaan collages met organische en vervreemdende structuren. Ik werk het liefste met kwetsbaar en/of transparant materiaal, zoals kalkeerpapier, vloeipapier of rijstpapier, stoffen, gedroogde bloemblaadjes, gecombineerd met (kleur) potlood, inkt en fineliner.',
     cv: {
         titel: 'CV',
-        text: 'Ik ben autodidact. Ik heb cursussen gevolgd bij verschillende culturele instellingen en de Vrije Kennemer Academie Kennemerland in Overveen. Sinds 2016 neem ik deel aan studio 37 in Haarlem, een onderzoeksgroep voor kunstenaars voor ontwikkeling en reflecties op het gebied van beeldende kunst onder leiding van Pietsjanke Fokkema. '
+        text: 'Ik ben autodidact. Ik heb cursussen gevolgd bij verschillende culturele instellingen en de Vrije Academie Kennemerland in Overveen. Sinds 2016 neem ik deel aan studio 37 in Haarlem, een onderzoeksgroep voor kunstenaars voor ontwikkeling en reflecties op het gebied van beeldende kunst onder leiding van Pietsjanke Fokkema. '
     },
 }
     
@@ -17,9 +17,17 @@ const contactText = {
 
 const expositiesText = {
     header: 'Exposities',
+    four: {
+        title: 'Fragiel, kapsalon Mascha, Haarlem (solo)',
+        date: 'Zomer 2022'
+    },
+    five: {
+        title: 'Studio 37, Kunstlijn Haarlem, Haarlem (group)',
+        date: 'Najaar 2022'
+    },
     zero: {
-        title: 'Cirkels in de hal van Overduin, Dompvloedslaan',
-        date: '2022, Overveen'
+        title: 'Cirkels, Overduin, Overveen',
+        date: '2022'
     },
     one: {
         title: 'Kunstlijn Haarlem, groepsexpositie leden studio37',
