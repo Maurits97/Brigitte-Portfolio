@@ -529,13 +529,13 @@ const allArtworkInfo = {
     },
 
     //fragiel
-    'fragiel2': {
+    'fragiel-2': {
         titel: 'Fragiel 2',
         jaartal: '2022',
         techniek: 'Papier, fineliner, kleurpotlood',
         dimensie: '29,7x42cm',
     },
-    'fragiel3': {
+    'fragiel-3': {
         titel: 'Fragiel 3',
         jaartal: '2022',
         techniek: 'Papier, fineliner, bloemblaadjes',

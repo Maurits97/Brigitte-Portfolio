@@ -489,4 +489,8 @@ body {
     font-size: 20px;
   }
 }
+
+#content .contact .contact__header-link {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

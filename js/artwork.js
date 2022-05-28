@@ -247,12 +247,12 @@ const artworkEight = {
     text: '' ,
     links: {
         one: {
-            work: 'img/fragiel/Fragiel2.jpg',
-            pagelink: '/mijnwerk/fragiel/fragiel2',
+            work: 'img/fragiel/fragiel-2.jpg',
+            pagelink: '/mijnwerk/fragiel/fragiel-2',
         },
         two: {
-            work: 'img/fragiel/Fragiel3.jpg',
-            pagelink: '/mijnwerk/fragiel/fragiel3',
+            work: 'img/fragiel/fragiel-3.jpg',
+            pagelink: '/mijnwerk/fragiel/fragiel-3',
         },
     }
 }

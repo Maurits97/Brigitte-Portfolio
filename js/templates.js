@@ -175,6 +175,9 @@ const contact = {
             <h2 class="contact__header">E-mail:</h2>
             <p>brouwerstark@gmail.com</p>
             <br />
+            <h2 class="contact__header">LinkedIn:</h2>
+            <p><a class="contact__header-link" href="https://www.linkedin.com/in/brigittestark/" target="_blank">Linkedin.com/in/brigittestark/</a></p>
+            <br />
             <i>Alle prijzen van mijn werk zijn inclusief btw. maar exclusief verzendkosten</i>
         </div>
     `
